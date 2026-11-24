@@ -1,0 +1,6 @@
+node_modules
+dist
+*.local
+.DS_Store
+# Código original recuperado (sólo para regenerar los datos en local con `npm run prepare-game`)
+_original_src/

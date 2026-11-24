@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; height: 100%; background: #000; overflow: hidden; overscroll-behavior: none; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; color: #eee; -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none; touch-action: none; }
+.shell { position: fixed; inset: 0; display: flex; flex-direction: column; }
+.stage-wrap { position: relative; flex: 1 0 auto; display: flex; align-items: center; justify-content: center; }
+canvas.game { display: block; image-rendering: auto; touch-action: none; cursor: none; background: #000; }
+@media (pointer: coarse) { canvas.game { cursor: default; } }
+.start { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; background: rgba(0,0,0,.85); color: #f3e3b5; border: 0; font: inherit; font-size: 22px; cursor: pointer; }
+.start img { width: 64px; height: 64px; image-rendering: pixelated; }
+.start small { font-size: 13px; opacity: .7; }
+.start:disabled { cursor: wait; }
+.menu-btn { position: fixed; right: 6px; bottom: 6px; width: 34px; height: 34px; border-radius: 8px; border: 1px solid #fff3; background: #0008; color: #fff; font-size: 18px; opacity: .55; z-index: 5; }
+.menu-btn:hover { opacity: 1; }
+.below { flex: 0 0 auto; display: flex; flex-direction: column; justify-content: flex-end; padding: 6px 10px calc(6px + env(safe-area-inset-bottom)); gap: 8px; }
+.bar { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.bar button { background: #3a2a18; color: #f3e3b5; border: 1px solid #a07a46; border-radius: 8px; padding: 8px 12px; font: inherit; font-size: 15px; }
+.hint { font-size: 12px; opacity: .55; text-align: right; }
+.hidden-input { position: fixed; left: -100px; top: 0; width: 10px; height: 10px; opacity: 0; font-size: 16px; }
+.overlay { position: fixed; inset: 0; background: #000a; display: flex; align-items: center; justify-content: center; z-index: 10; padding: 12px; touch-action: auto; }
+.panel { background: #2b2016; border: 2px solid #a07a46; border-radius: 12px; padding: 16px 18px; width: min(440px, 100%); max-height: 100%; overflow: auto; color: #f3e3b5; user-select: text; -webkit-user-select: text; }
+.panel h2 { margin: 0 0 12px; font-size: 20px; color: #ffd27a; }
+.panel .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 8px 0; }
+.panel input[type=text], .panel input:not([type]), .panel input[type=password] { flex: 1; min-width: 0; padding: 8px; border-radius: 6px; border: 1px solid #a07a46; background: #1a120b; color: #fff; font-size: 16px; }
+.panel input[type=range] { flex: 1; }
+.buttons { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.buttons button { flex: 1 1 auto; padding: 10px 12px; border-radius: 8px; border: 1px solid #a07a46; background: #3a2a18; color: #f3e3b5; font: inherit; font-size: 15px; cursor: pointer; }
+.buttons button.primary { background: #a07a46; color: #1a120b; font-weight: 600; }
+.buttons button:disabled { opacity: .5; cursor: default; }
+.note { font-size: 13px; opacity: .8; }
+.err { color: #ff8a7a; font-size: 14px; }
+.scroll { max-height: 50vh; overflow: auto; }
+table.rank { width: 100%; border-collapse: collapse; font-size: 14px; }
+table.rank th, table.rank td { padding: 5px 6px; text-align: left; border-bottom: 1px solid #a07a4644; }
+table.rank tr.me td { color: #ffd27a; font-weight: 600; }
+.touchpad { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; height: 150px; }
+.touchpad.floating { position: absolute; left: 10px; right: 10px; bottom: 10px; height: 120px; pointer-events: none; opacity: .75; }
+.touchpad.floating .pad { pointer-events: auto; }
+.touchpad .steer, .touchpad .pedals { display: flex; gap: 10px; height: 100%; align-items: flex-end; }
+.pad { width: 84px; height: 84px; border-radius: 50%; border: 2px solid #fff6; background: #ffffff22; color: #fff; font-size: 26px; font-weight: 700; touch-action: none; }
+.pad.gas, .pad.brake { border-radius: 14px; width: 92px; height: 110px; font-size: 15px; }
+.pad.gas { background: #2e7d3255; }
+.pad.brake { background: #c6282855; height: 84px; }
+.pad:active { background: #ffffff55; }

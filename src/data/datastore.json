@@ -1,0 +1,9247 @@
+{
+"constants": {
+"BASE_REQUEST_URL": "http://ws.trojanchicken.com/ded/uy/",
+"ARTIGAS": "Artigas",
+"CANELONES": "Canelones",
+"CERRO_LARGO": "Cerro Largo",
+"COLONIA": "Colonia",
+"DURAZNO": "Durazno",
+"FLORES": "Flores",
+"FLORIDA": "Florida",
+"LAVALLEJA": "Lavalleja",
+"MALDONADO": "Maldonado",
+"MONTEVIDEO": "Montevideo",
+"PAYSANDU": "Paysandú",
+"RIO_NEGRO": "Río Negro",
+"RIVERA": "Rivera",
+"ROCHA": "Rocha",
+"SALTO": "Salto",
+"SAN_JOSE": "San José",
+"SORIANO": "Soriano",
+"TACUAREMBO": "Tacuarembó",
+"TREINTA_Y_TRES": "Treinta y Tres",
+"GENERICO": "Genérico",
+"INDIGENA": "Indígena",
+"GAUCHO": "Gaucho",
+"FOSILES": "Fósiles",
+"APARICIO_SARAVIA": "Aparicio Saravia",
+"FABINI": "Fabini",
+"ARMAS": "Armas",
+"MONEDAS": "Monedas",
+"BLANES": "Blanes",
+"TORRES_GARCIA": "Torres García",
+"SOLARI": "Solari",
+"ARTE": "Arte",
+"GARDEL": "Gardel",
+"EUSEBIO_GIMENEZ": "Eusebio Giménez",
+"MALE": 1,
+"FEMALE": 2,
+"TALL": 1,
+"SHORT": 2,
+"BRUNETTE": 1,
+"BLONDE": 2,
+"REDHEAD": 3,
+"GREY_HAIRED": 4,
+"SCAR": 1,
+"TATOO": 2,
+"GLASSES": 3,
+"MOLE": 4,
+"SPORT": 1,
+"PET": 2,
+"MAMMAL": 1,
+"BIRD": 2,
+"REPTILE": 3,
+"FISH": 4,
+"HERBIVORE": 1,
+"CARNIVORE": 2,
+"WALK": 1,
+"FLY": 2,
+"SWIM": 3,
+"AQUATIC": 1,
+"TERRESTRIAL": 2,
+"THIEF_CAR_COLORS": {
+"violet": "violeta",
+"green": "verde",
+"blue": "azul"
+}
+},
+"order": [
+"list_departments",
+"list_animals",
+"list_sports",
+"list_stolen_objects",
+"list_crime_locations",
+"list_thieves",
+"list_lair_sets",
+"list_witnesses",
+"list_statements",
+"list_identikit_statements",
+"list_janitor_statements",
+"list_clue_types",
+"list_clues",
+"list_rivers",
+"list_lagoons",
+"list_hills",
+"list_history_facts",
+"list_locations",
+"list_writers"
+],
+"lists": {
+"list_departments": [
+{
+"cls": "Department",
+"args": [
+"Artigas",
+"artigas",
+[
+32,
+27
+],
+[
+22,
+10
+],
+[
+{
+"cls": "CityPin",
+"args": [
+152,
+204,
+false,
+"Baltasar Brum",
+2,
+0,
+[
+125,
+200
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+133,
+113,
+false,
+"Tomás Gomensoro",
+3,
+1,
+[
+100,
+109
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+90,
+74,
+false,
+"Bella Unión",
+2,
+0,
+[
+58,
+69
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+359,
+106,
+true,
+"Artigas",
+1,
+0,
+[
+348,
+107
+]
+]
+}
+],
+"medalla1",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Canelones",
+"canelones",
+[
+60,
+26
+],
+[
+36,
+54
+],
+[
+{
+"cls": "CityPin",
+"args": [
+89,
+131,
+false,
+"Santa Lucía",
+2,
+0,
+[
+68,
+134
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+136,
+158,
+false,
+"Canelones",
+1,
+0,
+[
+121,
+162
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+155,
+243,
+false,
+"Las Piedras",
+2,
+0,
+[
+134,
+253
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+257,
+248,
+true,
+"Pando",
+1,
+0,
+[
+240,
+255
+]
+]
+}
+],
+"medalla2",
+"beach"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Cerro Largo",
+"cerrolargo",
+[
+84,
+15
+],
+[
+46,
+28
+],
+[
+{
+"cls": "CityPin",
+"args": [
+227,
+199,
+false,
+"Fraile Muerto",
+2,
+0,
+[
+207,
+207
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+321,
+72,
+true,
+"Isidoro Noblía",
+3,
+1,
+[
+292,
+72
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+311,
+168,
+true,
+"Melo",
+1,
+0,
+[
+293,
+175
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+464,
+224,
+true,
+"Río Branco",
+2,
+0,
+[
+431,
+229
+]
+]
+}
+],
+"medalla3",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Colonia",
+"colonia",
+[
+35,
+33
+],
+[
+18,
+49
+],
+[
+{
+"cls": "CityPin",
+"args": [
+68,
+106,
+false,
+"Carmelo",
+1,
+0,
+[
+49,
+118
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+226,
+294,
+false,
+"Colonia del Sacramento",
+3,
+2,
+[
+207,
+296
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+359,
+282,
+true,
+"Juan Lacaze",
+2,
+0,
+[
+331,
+291
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+376,
+77,
+true,
+"Florencio Sánchez",
+3,
+1,
+[
+354,
+61
+]
+]
+}
+],
+"medalla4",
+"beach"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Durazno",
+"durazno",
+[
+27,
+19
+],
+[
+31,
+34
+],
+[
+{
+"cls": "CityPin",
+"args": [
+158,
+279,
+false,
+"Durazno",
+1,
+0,
+[
+152,
+280
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+291,
+234,
+true,
+"Carmen",
+1,
+0,
+[
+272,
+245
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+364,
+258,
+true,
+"Sarandí del Yí",
+2,
+0,
+[
+348,
+272
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+382,
+144,
+true,
+"Blanquillo",
+2,
+0,
+[
+352,
+142
+]
+]
+}
+],
+"medalla5",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Flores",
+"flores",
+[
+140,
+12
+],
+[
+27,
+42
+],
+[
+{
+"cls": "CityPin",
+"args": [
+199,
+17,
+false,
+"Andresito",
+1,
+0,
+[
+188,
+22
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+225,
+301,
+false,
+"Ismael Cortinas",
+3,
+1,
+[
+200,
+308
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+330,
+134,
+true,
+"Juan José Castro",
+3,
+2,
+[
+301,
+129
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+280,
+148,
+true,
+"Trinidad",
+1,
+0,
+[
+263,
+156
+]
+]
+}
+],
+"medalla6",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Florida",
+"florida",
+[
+132,
+0
+],
+[
+34,
+43
+],
+[
+{
+"cls": "CityPin",
+"args": [
+167,
+143,
+false,
+"Sarandí Grande",
+2,
+0,
+[
+139,
+147
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+193,
+240,
+false,
+"Florida",
+1,
+0,
+[
+176,
+242
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+321,
+226,
+true,
+"Casupá",
+1,
+0,
+[
+301,
+244
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+335,
+155,
+true,
+"Cerro Colorado",
+3,
+1,
+[
+309,
+170
+]
+]
+}
+],
+"medalla7",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Lavalleja",
+"lavalleja",
+[
+134,
+9
+],
+[
+43,
+44
+],
+[
+{
+"cls": "CityPin",
+"args": [
+232,
+34,
+false,
+"José Batlle y Ordóñez",
+3,
+2,
+[
+203,
+30
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+215,
+257,
+false,
+"Minas",
+1,
+0,
+[
+195,
+272
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+155,
+310,
+false,
+"Solís de Mataojo",
+3,
+2,
+[
+135,
+306
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+348,
+33,
+true,
+"José Pedro Varela",
+3,
+2,
+[
+326,
+25
+]
+]
+}
+],
+"medalla8",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Maldonado",
+"maldonado",
+[
+123,
+11
+],
+[
+45,
+51
+],
+[
+{
+"cls": "CityPin",
+"args": [
+177,
+290,
+false,
+"Piriápolis",
+1,
+0,
+[
+159,
+307
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+232,
+305,
+false,
+"Maldonado",
+1,
+0,
+[
+229,
+304
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+278,
+272,
+true,
+"San Carlos",
+2,
+0,
+[
+247,
+270
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+288,
+92,
+true,
+"Aiguá",
+1,
+0,
+[
+285,
+89
+]
+]
+}
+],
+"medalla9",
+"beach"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Montevideo",
+"montevideo",
+[
+36,
+12
+],
+[
+35,
+58
+],
+[
+{
+"cls": "CityPin",
+"args": [
+307,
+282,
+false,
+"Centro",
+1,
+0,
+[
+299,
+285
+],
+"el"
+]
+},
+{
+"cls": "CityPin",
+"args": [
+220,
+240,
+false,
+"Villa del Cerro",
+3,
+2,
+[
+199,
+238
+],
+"la"
+]
+},
+{
+"cls": "CityPin",
+"args": [
+377,
+177,
+true,
+"Jardines del Hipódromo",
+3,
+2,
+[
+348,
+177
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+453,
+254,
+true,
+"Carrasco",
+2,
+0,
+[
+422,
+261
+]
+]
+}
+],
+"medalla10",
+"beach"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Paysandú",
+"paysandu",
+[
+76,
+27
+],
+[
+19,
+24
+],
+[
+{
+"cls": "CityPin",
+"args": [
+199,
+252,
+false,
+"Piedras Coloradas",
+3,
+1,
+[
+175,
+260
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+133,
+147,
+false,
+"Quebracho",
+1,
+0,
+[
+121,
+152
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+96,
+249,
+false,
+"Paysandú",
+1,
+0,
+[
+81,
+258
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+291,
+235,
+true,
+"Guichón",
+1,
+0,
+[
+270,
+262
+]
+]
+}
+],
+"medalla11",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Río Negro",
+"rionegro",
+[
+66,
+35
+],
+[
+18,
+34
+],
+[
+{
+"cls": "CityPin",
+"args": [
+218,
+127,
+false,
+"Young",
+1,
+0,
+[
+220,
+127
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+127,
+111,
+false,
+"San Javier",
+1,
+0,
+[
+105,
+120
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+135,
+196,
+false,
+"Nuevo Berlín",
+2,
+0,
+[
+112,
+205
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+81,
+247,
+false,
+"Fray Bentos",
+2,
+0,
+[
+56,
+248
+]
+]
+}
+],
+"medalla12",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Rivera",
+"rivera",
+[
+66,
+12
+],
+[
+39,
+17
+],
+[
+{
+"cls": "CityPin",
+"args": [
+140,
+93,
+false,
+"Tranqueras",
+2,
+0,
+[
+121,
+95
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+211,
+184,
+false,
+"Minas de Corrales",
+3,
+2,
+[
+188,
+186
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+187,
+27,
+false,
+"Rivera",
+1,
+0,
+[
+187,
+27
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+384,
+239,
+true,
+"Vichadero",
+1,
+0,
+[
+372,
+250
+]
+]
+}
+],
+"medalla13",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Rocha",
+"rocha",
+[
+183,
+14
+],
+[
+53,
+43
+],
+[
+{
+"cls": "CityPin",
+"args": [
+232,
+100,
+false,
+"Lascano",
+1,
+0,
+[
+222,
+110
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+212,
+258,
+false,
+"Rocha",
+1,
+0,
+[
+198,
+271
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+304,
+206,
+true,
+"Castillos",
+1,
+0,
+[
+281,
+215
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+360,
+109,
+true,
+"Chuy",
+1,
+0,
+[
+347,
+116
+]
+]
+}
+],
+"medalla14",
+"beach"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Salto",
+"salto",
+[
+57,
+36
+],
+[
+21,
+17
+],
+[
+{
+"cls": "CityPin",
+"args": [
+104,
+39,
+false,
+"Belén",
+1,
+0,
+[
+98,
+46
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+109,
+114,
+false,
+"Constitución",
+2,
+0,
+[
+71,
+119
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+80,
+194,
+false,
+"Salto",
+1,
+0,
+[
+67,
+206
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+300,
+110,
+true,
+"Pueblo Lavalleja",
+3,
+1,
+[
+262,
+110
+]
+]
+}
+],
+"medalla15",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"San José",
+"sanjose",
+[
+157,
+8
+],
+[
+30,
+49
+],
+[
+{
+"cls": "CityPin",
+"args": [
+185,
+189,
+false,
+"Ecilda Paullier",
+2,
+0,
+[
+149,
+184
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+273,
+162,
+true,
+"San José de Mayo",
+3,
+2,
+[
+246,
+165
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+302,
+268,
+true,
+"Libertad",
+1,
+0,
+[
+287,
+276
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+374,
+312,
+true,
+"Ciudad del Plata",
+3,
+1,
+[
+349,
+314
+]
+]
+}
+],
+"medalla16",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Soriano",
+"soriano",
+[
+86,
+14
+],
+[
+18,
+41
+],
+[
+{
+"cls": "CityPin",
+"args": [
+148,
+182,
+false,
+"Dolores",
+1,
+0,
+[
+138,
+192
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+190,
+91,
+false,
+"Mercedes",
+1,
+0,
+[
+175,
+95
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+328,
+228,
+true,
+"José Enrique Rodó",
+3,
+2,
+[
+299,
+231
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+374,
+285,
+true,
+"Cardona",
+1,
+0,
+[
+359,
+291
+]
+]
+}
+],
+"medalla17",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Tacuarembó",
+"tacuarembo",
+[
+132,
+16
+],
+[
+33,
+22
+],
+[
+{
+"cls": "CityPin",
+"args": [
+149,
+306,
+false,
+"Paso de los Toros",
+3,
+2,
+[
+123,
+311
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+243,
+114,
+false,
+"Tacuarembó",
+2,
+0,
+[
+214,
+108
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+334,
+131,
+true,
+"Ansina",
+1,
+0,
+[
+312,
+135
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+262,
+248,
+true,
+"San Gregorio de Polanco",
+3,
+2,
+[
+234,
+253
+]
+]
+}
+],
+"medalla18",
+"field"
+]
+},
+{
+"cls": "Department",
+"args": [
+"Treinta y Tres",
+"treintaytres",
+[
+29,
+56
+],
+[
+47,
+36
+],
+[
+{
+"cls": "CityPin",
+"args": [
+77,
+116,
+false,
+"Santa Clara de Olimar",
+3,
+2,
+[
+55,
+110
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+227,
+220,
+false,
+"Treinta y Tres",
+2,
+0,
+[
+203,
+225
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+348,
+124,
+true,
+"Vergara",
+1,
+0,
+[
+337,
+131
+]
+]
+},
+{
+"cls": "CityPin",
+"args": [
+375,
+207,
+true,
+"Gral. Enrique Martínez",
+3,
+2,
+[
+360,
+209
+]
+]
+}
+],
+"medalla19",
+"field"
+]
+}
+],
+"list_animals": [
+{
+"cls": "Animal",
+"args": [
+"gato",
+1,
+2,
+1
+]
+},
+{
+"cls": "Animal",
+"args": [
+"perro",
+1,
+2,
+1
+]
+},
+{
+"cls": "Animal",
+"args": [
+"conejo",
+1,
+1,
+1
+]
+},
+{
+"cls": "Animal",
+"args": [
+"loro",
+2,
+1,
+2
+]
+},
+{
+"cls": "Animal",
+"args": [
+"canario",
+2,
+1,
+2
+]
+},
+{
+"cls": "Animal",
+"args": [
+"águila",
+2,
+2,
+2
+]
+},
+{
+"cls": "Animal",
+"args": [
+"pingüino",
+2,
+2,
+3
+]
+},
+{
+"cls": "Animal",
+"args": [
+"tortuga de tierra",
+3,
+1,
+1
+]
+},
+{
+"cls": "Animal",
+"args": [
+"tortuga de río",
+3,
+2,
+3
+]
+},
+{
+"cls": "Animal",
+"args": [
+"iguana",
+3,
+1,
+1
+]
+},
+{
+"cls": "Animal",
+"args": [
+"cocodrilo",
+3,
+2,
+3
+]
+},
+{
+"cls": "Animal",
+"args": [
+"tiburón",
+4,
+2,
+3
+]
+},
+{
+"cls": "Animal",
+"args": [
+"piraña",
+4,
+2,
+3
+]
+},
+{
+"cls": "Animal",
+"args": [
+"caballito de mar",
+4,
+2,
+3
+]
+},
+{
+"cls": "Animal",
+"args": [
+"delfín",
+1,
+2,
+3
+]
+},
+{
+"cls": "Animal",
+"args": [
+"murciélago de la fruta",
+1,
+1,
+2
+]
+}
+],
+"list_sports": [
+{
+"cls": "Sport",
+"args": [
+"waterpolo",
+1,
+true,
+true
+]
+},
+{
+"cls": "Sport",
+"args": [
+"natación",
+1,
+false,
+false
+]
+},
+{
+"cls": "Sport",
+"args": [
+"nado sincronizado",
+1,
+true,
+false
+]
+},
+{
+"cls": "Sport",
+"args": [
+"fútbol",
+2,
+true,
+true
+]
+},
+{
+"cls": "Sport",
+"args": [
+"golf",
+2,
+false,
+true
+]
+},
+{
+"cls": "Sport",
+"args": [
+"carrera con postas",
+2,
+true,
+false
+]
+},
+{
+"cls": "Sport",
+"args": [
+"carrera",
+2,
+false,
+false
+]
+},
+{
+"cls": "Sport",
+"args": [
+"caminata",
+2,
+false,
+false
+]
+}
+],
+"list_stolen_objects": [
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un antiguo sable",
+"el sable",
+"Genérico"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un trabuco naranjero",
+"el trabuco naranjero",
+"Genérico"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un antiguo fusil",
+"el fusil",
+"Genérico"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"una valiosa pintura",
+"la pintura",
+"Genérico"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"unas fotos antiguas",
+"las fotos",
+"Genérico"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"una punta de flecha indígena",
+"la punta de flecha",
+"Indígena"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"una vasija de cerámica indígena",
+"la vasija",
+"Indígena"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"unas herramientas indígenas",
+"las herramientas",
+"Indígena"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"unas boleadoras indígenas",
+"las boleadoras",
+"Indígena"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un arco indígena",
+"el arco",
+"Indígena"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un antiguo facón",
+"el facón",
+"Gaucho"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"una silla de montar",
+"la silla de montar",
+"Gaucho"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"unas espuelas",
+"las espuelas",
+"Gaucho"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"unas boleadoras",
+"las boleadoras",
+"Gaucho"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"una antigua vestimenta gauchesca",
+"la vestimenta",
+"Gaucho"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"unos restos fosilizados de dinosaurio",
+"los restos fosilizados",
+"Fósiles"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"unos importantes restos fósiles",
+"los restos fósiles",
+"Fósiles"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un uniforme que perteneció al General Aparicio Saravia",
+"el uniforme",
+"Aparicio Saravia"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"unas botas que pertenecieron al General Aparicio Saravia",
+"las botas",
+"Aparicio Saravia"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"unas espuelas que pertenecieron al General Aparicio Saravia",
+"las espuelas",
+"Aparicio Saravia"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un sable que perteneció al General Aparicio Saravia",
+"el sable",
+"Aparicio Saravia"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un violín que perteneció al músico Eduardo Fabini",
+"el violín",
+"Fabini"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"las partituras originales de la obra \"Campo\" del compositor Eduardo Fabini",
+"las partituras",
+"Fabini"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"las partituras originales de la obra \"La Isla de los Ceibos\" del compositor Eduardo Fabini",
+"las partituras",
+"Fabini"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"las partituras originales de la obra \"La Patria Vieja\" del compositor Eduardo Fabini",
+"las partituras",
+"Fabini"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un antiguo sable",
+"el sable",
+"Armas"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un antiguo uniforme militar",
+"el uniforme",
+"Armas"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un antiguo fusil",
+"el fusil",
+"Armas"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un trabuco naranjero",
+"el trabuco naranjero",
+"Armas"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"una colección de monedas muy antiguas",
+"la colección de monedas",
+"Monedas"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"El Juramento de los Treinta y Tres Orientales\" del pintor Juan Manuel Blanes",
+"el cuadro",
+"Blanes"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"Asesinato del General Venancio Flores\" del pintor Juan Manuel Blanes",
+"el cuadro",
+"Blanes"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"La Cautiva\" del pintor Juan Manuel Blanes",
+"el cuadro",
+"Blanes"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"Demonio, Mundo y Carne\" del pintor Juan Manuel Blanes",
+"el cuadro",
+"Blanes"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"Nueva York\" del pintor Joaquín Torres García",
+"el cuadro",
+"Torres García"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"Suburbio\" del pintor Joaquín Torres García",
+"el cuadro",
+"Torres García"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"Composición simétrica universal\" del pintor Joaquín Torres García",
+"el cuadro",
+"Torres García"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"Arte Universal\" del pintor Joaquín Torres García",
+"el cuadro",
+"Torres García"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"Extraña Máscara\" del pintor Luis Alberto Solari",
+"el cuadro",
+"Solari"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"Un día y una história\" del pintor Luis Alberto Solari",
+"el cuadro",
+"Solari"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"Carroza para un carnaval\" del pintor Luis Alberto Solari",
+"el cuadro",
+"Solari"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"El arca de Noé\" del pintor Luis Alberto Solari",
+"el cuadro",
+"Solari"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un valioso cuadro",
+"el cuadro",
+"Arte"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"una valiosa escultura",
+"la escultura",
+"Arte"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un pasaporte que demuestra la nacionalidad uruguaya del cantante Carlos Gardel",
+"el pasaporte",
+"Gardel"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"una foto original del cantante Carlos Gardel",
+"la foto",
+"Gardel"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"algunos recortes de periódico de la década del 30",
+"los recortes de periódico",
+"Gardel"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"de",
+"un libro muy antiguo",
+"el libro",
+"Eusebio Giménez"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"Romana\" del pintor Carlos Federico Sáez",
+"el cuadro",
+"Eusebio Giménez"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"Chocaro\" del pintor Carlos Federico Sáez",
+"el cuadro",
+"Eusebio Giménez"
+]
+},
+{
+"cls": "StolenObject",
+"args": [
+"del",
+"cuadro \"Río Tiber\" del pintor Carlos Federico Sáez",
+"el cuadro",
+"Eusebio Giménez"
+]
+}
+],
+"list_crime_locations": [
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Departamental",
+{
+"$ref": [
+"list_departments",
+0
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Histórico Departamental \"Juan Spikerman\"",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Arqueológico \"Prof. Antonio Taddei\"",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Indígena",
+"Fósiles"
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo General Aparicio Saravia",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"Aparicio Saravia",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Histórico Regional",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Municipal",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo del Indígena",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Indígena",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Paleontológico y Arqueológico",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Indígena",
+"Fósiles"
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo del Gaucho",
+{
+"$ref": [
+"list_departments",
+4
+]
+},
+"Gaucho",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Departamental",
+{
+"$ref": [
+"list_departments",
+5
+]
+},
+"Fósiles",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Cau Rusiñol",
+{
+"$ref": [
+"list_departments",
+5
+]
+},
+"Arte",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Histórico Municipal",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Municipal del Gaucho",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"Gaucho",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Eduardo Fabini",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"Fabini",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"la",
+"Casa de la cultura",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Didáctico Artiguista",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"Armas",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Regional \"Francisco Mazzoni\"",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo del Gaucho y de la Moneda",
+{
+"$ref": [
+"list_departments",
+9
+]
+},
+"Gaucho",
+"Monedas"
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Nacional de Artes Visuales",
+{
+"$ref": [
+"list_departments",
+9
+]
+},
+"Arte",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Municipal de Bellas Artes \"Juan Manuel Blanes\"",
+{
+"$ref": [
+"list_departments",
+9
+]
+},
+"Blanes",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Torres García",
+{
+"$ref": [
+"list_departments",
+9
+]
+},
+"Torres García",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Municipal Precolombino y Colonial",
+{
+"$ref": [
+"list_departments",
+9
+]
+},
+"Indígena",
+"Armas"
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo de Artes Plásticas",
+{
+"$ref": [
+"list_departments",
+10
+]
+},
+"Arte",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Histórico Municipal",
+{
+"$ref": [
+"list_departments",
+10
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo \"Luis A. Solari\"",
+{
+"$ref": [
+"list_departments",
+11
+]
+},
+"Solari",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Municipal de Historia y Arqueología",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Municipal de Artes Plásticas",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"Arte",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Regional",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"Monedas",
+"Genérico"
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo de la Fortaleza de Santa Teresa",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"Armas",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo del Fuerte San Miguel",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"Armas",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Histórico Municipal",
+{
+"$ref": [
+"list_departments",
+14
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo del Hombre y la Tecnología",
+{
+"$ref": [
+"list_departments",
+14
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Departamental",
+{
+"$ref": [
+"list_departments",
+15
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo de Bellas Artes",
+{
+"$ref": [
+"list_departments",
+15
+]
+},
+"Arte",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Santo Domingo",
+{
+"$ref": [
+"list_departments",
+16
+]
+},
+"Fósiles",
+"Indígena"
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"la",
+"Biblioteca-Museo \"Eusebio Giménez\"",
+{
+"$ref": [
+"list_departments",
+16
+]
+},
+"Eusebio Giménez",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Carlos Gardel",
+{
+"$ref": [
+"list_departments",
+17
+]
+},
+"Gardel",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo del Indio y del Gaucho \"Washington Escobar\"",
+{
+"$ref": [
+"list_departments",
+17
+]
+},
+"Indígena",
+"Gaucho"
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Abierto de Artes Visuales",
+{
+"$ref": [
+"list_departments",
+17
+]
+},
+"Arte",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Histórico",
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+"Genérico",
+null
+]
+},
+{
+"cls": "CrimeLocation",
+"args": [
+"el",
+"Museo Municipal de Bellas Artes \"Agustín Araujo\"",
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+"Arte",
+null
+]
+}
+],
+"list_thieves": [
+{
+"cls": "Thief",
+"args": [
+1,
+2,
+3,
+3,
+{
+"$ref": [
+"list_animals",
+13
+]
+},
+{
+"$ref": [
+"list_sports",
+5
+]
+},
+"Tomás Prestado",
+"\"El usurero\"",
+"32 años",
+"Trabajaba anteriormente en una casa de empeño que usaba como plataforma para traficar objetos robados.\nSus amigos se quejan de que nunca devuelve las cosas.",
+"p0_thief_small_tomas.png",
+"p0_thief_big_tomas_1.jpg",
+"p0_thief_big_tomas_2.jpg",
+"p0_thief_big_tomas_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+2,
+1,
+1,
+4,
+{
+"$ref": [
+"list_animals",
+7
+]
+},
+{
+"$ref": [
+"list_sports",
+3
+]
+},
+"Helga Roben",
+"\"La novicia\"",
+"35 años",
+"Originaria de Austria.\nDe joven fue novicia, pero la excomulgaron por robar el dinero de los diezmos.\nFue expulsada de su país por bailar en las colinas, lo que ocasionaba terribles avalanchas.",
+"p0_thief_small_helga.png",
+"p0_thief_big_helga_1.jpg",
+"p0_thief_big_helga_2.jpg",
+"p0_thief_big_helga_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+1,
+1,
+1,
+2,
+{
+"$ref": [
+"list_animals",
+10
+]
+},
+{
+"$ref": [
+"list_sports",
+6
+]
+},
+"Ruffo Nepomuceno Ruffiani",
+"\"Angelito de mamá\"",
+"30 años",
+"Boxeador retirado con un récord de 112 peleas disputadas, 111 ganadas por knock-out. Una vez alguien hizo una broma con su segundo nombre, solo una vez.",
+"p0_thief_small_ruffo.png",
+"p0_thief_big_ruffo_1.jpg",
+"p0_thief_big_ruffo_2.jpg",
+"p0_thief_big_ruffo_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+2,
+2,
+4,
+3,
+{
+"$ref": [
+"list_animals",
+4
+]
+},
+{
+"$ref": [
+"list_sports",
+7
+]
+},
+"Teresa Terra Piña",
+"\"La abuela\"",
+"Edad desconocida",
+"Miembro fundador de CULT.\nSe rumorea que mantiene una relación amorosa con Timoteo T. Sacco.\nSe interesa especialmente en objetos de valor histórico porque le recuerdan su infancia.",
+"p0_thief_small_teresa.png",
+"p0_thief_big_teresa_1.jpg",
+"p0_thief_big_teresa_2.jpg",
+"p0_thief_big_teresa_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+1,
+1,
+1,
+1,
+{
+"$ref": [
+"list_animals",
+5
+]
+},
+{
+"$ref": [
+"list_sports",
+0
+]
+},
+"Giacomo Ladri",
+"\"El padrino\"",
+"51 años",
+"Inmigrante italiano.\nEra dueño de una cadena de pizzerías y traficaba armas dentro de las cajas.\nAceptó formar parte de CULT porque le hicieron una oferta que no podía rechazar.",
+"p0_thief_small_giacommo.png",
+"p0_thief_big_giacommo_1.jpg",
+"p0_thief_big_giacommo_2.jpg",
+"p0_thief_big_giacommo_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+1,
+2,
+3,
+2,
+{
+"$ref": [
+"list_animals",
+12
+]
+},
+{
+"$ref": [
+"list_sports",
+3
+]
+},
+"Steal McCrook",
+"\"El Duende\"",
+"23 años",
+"Procede de Irlanda.\nAfirma tener mucha suerte, que utiliza para jugar al \"roba montón\" por dinero en establecimientos ilegales.\nHay quienes sostienen que guarda su botín al final del arcoiris.",
+"p0_thief_small_steal.png",
+"p0_thief_big_steal_1.jpg",
+"p0_thief_big_steal_2.jpg",
+"p0_thief_big_steal_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+1,
+1,
+2,
+1,
+{
+"$ref": [
+"list_animals",
+6
+]
+},
+{
+"$ref": [
+"list_sports",
+2
+]
+},
+"Sven Hurtensson",
+"\"El Vikingo\"",
+"48 años",
+"Delincuente de origen nórdico.\nEn sus viajes de saqueo y pillaje terminó quedandose en nuestro país.\nSe enoja mucho cuando la gente habla mal de ABBA.",
+"p0_thief_small_sven.png",
+"p0_thief_big_sven_1.jpg",
+"p0_thief_big_sven_2.jpg",
+"p0_thief_big_sven_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+1,
+1,
+2,
+2,
+{
+"$ref": [
+"list_animals",
+14
+]
+},
+{
+"$ref": [
+"list_sports",
+4
+]
+},
+"Roberto Robani",
+"\"El Robin Hood integral\"",
+"37 años",
+"Procede de una familia de alto poder adquisitivo, su vinculación al mundo del hampa se produce unicamente por aburrimiento.\nSe hace llamar \"El Robin Hood integral\", ya que roba tanto a ricos como a pobres sin hacer distinción.",
+"p0_thief_small_roberto.png",
+"p0_thief_big_roberto_1.jpg",
+"p0_thief_big_roberto_2.jpg",
+"p0_thief_big_roberto_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+1,
+2,
+4,
+1,
+{
+"$ref": [
+"list_animals",
+8
+]
+},
+{
+"$ref": [
+"list_sports",
+7
+]
+},
+"Timoteo T. Sacco",
+"\"El Abuelo\"",
+"Edad desconocida",
+"Miembro fundador de CULT.\nSe rumorea que mantiene una relación amorosa con Teresa Terra Piña.\nTiene como pasatiempo sentarse en las plazas a robarle migas de pan a las palomas.",
+"p0_thief_small_timoteo.png",
+"p0_thief_big_timoteo_1.jpg",
+"p0_thief_big_timoteo_2.jpg",
+"p0_thief_big_timoteo_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+1,
+2,
+4,
+2,
+{
+"$ref": [
+"list_animals",
+11
+]
+},
+{
+"$ref": [
+"list_sports",
+1
+]
+},
+"Langostino Róbalo",
+"\"El Pescador\"",
+"68 años",
+"Pescador muy experimentado, su técnica preferida para pescar es robando con mosca.\nLo han pescado robando varias veces.\nOdia los juegos de palabras.\nCarece de sentido del olfato.",
+"p0_thief_small_langostino.png",
+"p0_thief_big_langostino_1.jpg",
+"p0_thief_big_langostino_2.jpg",
+"p0_thief_big_langostino_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+2,
+1,
+2,
+4,
+{
+"$ref": [
+"list_animals",
+9
+]
+},
+{
+"$ref": [
+"list_sports",
+4
+]
+},
+"Helena Del Hurto",
+"\"La Actríz\"",
+"Edad desconocida",
+"En su época fue una afamada actriz.\nEn la última obra en la que participó su actuación fue tan buena que se robó el espectáculo, de ahí en adelante se dedicó a la delincuecia.",
+"p0_thief_small_grace.png",
+"p0_thief_big_grace_1.jpg",
+"p0_thief_big_grace_2.jpg",
+"p0_thief_big_grace_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+2,
+1,
+2,
+3,
+{
+"$ref": [
+"list_animals",
+2
+]
+},
+{
+"$ref": [
+"list_sports",
+2
+]
+},
+"Vanessa Cuore",
+"\"La Enfermera\"",
+"32 años",
+"Ex funcionaria de la salud.\nSe decía que por su belleza le robaba los corazones a sus pacientes.\nFue despedida injustamente por un malentendido, el director del hospital entendió esa frase literalmente.",
+"p0_thief_small_vanessa.png",
+"p0_thief_big_vanessa_1.jpg",
+"p0_thief_big_vanessa_2.jpg",
+"p0_thief_big_vanessa_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+2,
+2,
+4,
+4,
+{
+"$ref": [
+"list_animals",
+3
+]
+},
+{
+"$ref": [
+"list_sports",
+1
+]
+},
+"Estela Bolsa Olavida",
+"\"La vasca\"",
+"76 años",
+"Descendente de vascos.\nSe aprovecha de su aspecto de ancianita indefensa para asaltar a los jóvenes a los que les pide ayuda para cruzar la calle.\nUtiliza el dinero que obtiene para organizar partidas de rummy canasta con sus amigas.",
+"p0_thief_small_estela.png",
+"p0_thief_big_estela_1.jpg",
+"p0_thief_big_estela_2.jpg",
+"p0_thief_big_estela_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+2,
+2,
+3,
+1,
+{
+"$ref": [
+"list_animals",
+15
+]
+},
+{
+"$ref": [
+"list_sports",
+5
+]
+},
+"Andrea A. Salto",
+"\"Naranjita\"",
+"21 años",
+"Adicta a las naranjas, tiene una cicatriz en el rostro que se hizo pelando una.\nDesde muy temprana edad, robaba en los puestos de fruta de su barrio aprovechando su color de pelo, que se camuflaba perfectamente con su amada fruta.",
+"p0_thief_small_andrea.png",
+"p0_thief_big_andrea_1.jpg",
+"p0_thief_big_andrea_2.jpg",
+"p0_thief_big_andrea_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+2,
+2,
+3,
+4,
+{
+"$ref": [
+"list_animals",
+1
+]
+},
+{
+"$ref": [
+"list_sports",
+6
+]
+},
+"Ana T. Birlo",
+"\"La huerfanita\"",
+"21 años",
+"Vivió en un orfanato los primeros años de su vida, luego fue adoptada por un magnate.\nA causa de un trauma psicológico solo puede comunicarse con la gente a través del canto y el baile.\nSiempre deja para mañana lo que puede hacer hoy.",
+"p0_thief_small_ana.png",
+"p0_thief_big_ana_1.jpg",
+"p0_thief_big_ana_2.jpg",
+"p0_thief_big_ana_3.jpg"
+]
+},
+{
+"cls": "Thief",
+"args": [
+2,
+1,
+1,
+3,
+{
+"$ref": [
+"list_animals",
+0
+]
+},
+{
+"$ref": [
+"list_sports",
+0
+]
+},
+"Roberta A. Ribas Lasmanos",
+"\"La pianista\"",
+"43 años",
+"Excelente pianista.\nSu obra preferida es El arte de la fuga de Johann Sebastian Bach.\nFue detenida por intentar traficar armas guardándolas dentro de su piano en una gira mundial.\nQuedó en evidencia cuando se dispararon en medio de un concierto.",
+"p0_thief_small_roberta.png",
+"p0_thief_big_roberta_1.jpg",
+"p0_thief_big_roberta_2.jpg",
+"p0_thief_big_roberta_3.jpg"
+]
+}
+],
+"list_lair_sets": [
+[
+1,
+1
+],
+[
+2,
+2
+],
+[
+3,
+3
+],
+[
+4,
+4
+],
+[
+5,
+5
+],
+[
+6,
+6
+],
+[
+7,
+7
+],
+[
+8,
+8
+],
+[
+9,
+9
+],
+[
+10,
+10
+],
+[
+11,
+11
+],
+[
+12,
+12
+],
+[
+13,
+13
+],
+[
+14,
+14
+],
+[
+13,
+15
+]
+],
+"list_witnesses": [
+{
+"cls": "Witness",
+"args": [
+"Jardinero",
+"p1_witness_gardener.png"
+]
+},
+{
+"cls": "Witness",
+"args": [
+"Almacenera",
+"p1_witness_shoptender.png"
+]
+},
+{
+"cls": "Witness",
+"args": [
+"Bibliotecario",
+"p1_witness_librarian.png"
+]
+},
+{
+"cls": "Witness",
+"args": [
+"Albañil",
+"p1_witness_bricklayer.png"
+]
+}
+],
+"list_statements": [
+{
+"cls": "Statement",
+"args": [
+"No vi a nadie sospechoso por aquí."
+]
+},
+{
+"cls": "Statement",
+"args": [
+"Un hombre sospechoso\npasó por aquí."
+]
+},
+{
+"cls": "Statement",
+"args": [
+"Una mujer sospechosa\npasó por aquí."
+]
+}
+],
+"list_identikit_statements": [
+{
+"cls": "IdentikitStatement",
+"args": [
+"Era bastante &#c144,22,22!&#f:bold!alto&#f!&#c!.",
+1,
+1,
+-1,
+-1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Era bastante &#c144,22,22!&#f:bold!alta&#f!&#c!.",
+2,
+1,
+-1,
+-1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Era bastante &#c144,22,22!&#f:bold!bajo&#f!&#c!.",
+1,
+2,
+-1,
+-1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Era bastante &#c144,22,22!&#f:bold!baja&#f!&#c!.",
+2,
+2,
+-1,
+-1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Era &#c144,22,22!&#f:bold!rubio&#f!&#c!.",
+1,
+-1,
+2,
+-1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Era &#c144,22,22!&#f:bold!rubia&#f!&#c!.",
+2,
+-1,
+2,
+-1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Era &#c144,22,22!&#f:bold!morocho&#f!&#c!.",
+1,
+-1,
+1,
+-1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Era &#c144,22,22!&#f:bold!morocha&#f!&#c!.",
+2,
+-1,
+1,
+-1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Era &#c144,22,22!&#f:bold!pelirrojo&#f!&#c!.",
+1,
+-1,
+3,
+-1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Era &#c144,22,22!&#f:bold!pelirroja&#f!&#c!.",
+2,
+-1,
+3,
+-1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Era &#c144,22,22!&#f:bold!canoso&#f!&#c!.",
+1,
+-1,
+4,
+-1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Era &#c144,22,22!&#f:bold!canosa&#f!&#c!.",
+2,
+-1,
+4,
+-1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Tenía un &#c144,22,22!&#f:bold!tatuaje&#f!&#c!.",
+-1,
+-1,
+-1,
+2
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Tenía una fea &#c144,22,22!&#f:bold!cicatríz&#f!&#c!.",
+-1,
+-1,
+-1,
+1
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Usaba &#c144,22,22!&#f:bold!lentes&#f!&#c!.",
+-1,
+-1,
+-1,
+3
+]
+},
+{
+"cls": "IdentikitStatement",
+"args": [
+"Tenía un &#c144,22,22!&#f:bold!lunar&#f!&#c!.",
+-1,
+-1,
+-1,
+4
+]
+}
+],
+"list_janitor_statements": [
+{
+"cls": "JanitorStatement",
+"args": [
+"Me preguntó por algún club que tuviese una &#c144,22,22!&#f:bold!piscina&#f!&#c! para practicar su &#c144,22,22!&#f:bold!deporte&#f!&#c! favorito.",
+1,
+-1,
+1,
+-1,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Me comentó que pensaba ir a la zapatería a comprarse un &#c144,22,22!&#f:bold!calzado&#f!&#c! adecuado para practicar su &#c144,22,22!&#f:bold!deporte&#f!&#c! favorito.",
+1,
+-1,
+2,
+-1,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Dijo que estaba aburrido porque para practicar el &#c144,22,22!&#f:bold!deporte&#f!&#c! que le gusta necesita un &#c144,22,22!&#f:bold!equipo&#f!&#c!.",
+1,
+1,
+-1,
+true,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Dijo que estaba aburrida porque para practicar el &#c144,22,22!&#f:bold!deporte&#f!&#c! que le gusta necesita un &#c144,22,22!&#f:bold!equipo&#f!&#c!.",
+1,
+2,
+-1,
+true,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Me comentó que pensaba ir a practicar su deporte preferido, cuando me ofrecí a jugar con él me dijo que &#c144,22,22!&#f:bold!no era un deporte de equipo&#f!&#c!.",
+1,
+1,
+-1,
+false,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Me comentó que pensaba ir a practicar su deporte preferido, cuando me ofrecí a jugar con ella me dijo que &#c144,22,22!&#f:bold!no era un deporte de equipo&#f!&#c!.",
+1,
+2,
+-1,
+false,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Preguntó por una casa de deportes porque necesitaba comprar una &#c144,22,22!&#f:bold!pelota&#f!&#c! para practicar su &#c144,22,22!&#f:bold!deporte&#f!&#c! favorito.",
+1,
+-1,
+-1,
+-1,
+true
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Preguntó por una casa de deportes, le ofrecí una pelota, pero me dijo que &#c144,22,22!&#f:bold!no se necesita una pelota&#f!&#c! para practicar el &#c144,22,22!&#f:bold!deporte&#f!&#c! que le gusta.",
+1,
+-1,
+-1,
+-1,
+false
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Me comentó que pensaba ir a buscar alimento para su &#c144,22,22!&#f:bold!mascota&#f!&#c! en algún comercio donde vendieran el tipo de &#c144,22,22!&#f:bold!carne&#f!&#c! que le gusta.",
+2,
+-1,
+-1,
+2,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Me comentó que pensaba ir a la &#c144,22,22!&#f:bold!verdulería&#f!&#c! a buscar alimento para su &#c144,22,22!&#f:bold!mascota&#f!&#c!.",
+2,
+-1,
+-1,
+1,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Me comentó que como su &#c144,22,22!&#f:bold!mascota&#f!&#c! tenía que &#c144,22,22!&#f:bold!amamantar&#f!&#c! a sus crías tenía que alimentarla mejor.",
+2,
+-1,
+1,
+-1,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Le pregunté si tenía &#c144,22,22!&#f:bold!mascota&#f!&#c!, me dijo que si, pero que no la saca a pasear porque solo puede &#c144,22,22!&#f:bold!respirar bajo el agua&#f!&#c!.",
+2,
+-1,
+4,
+-1,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Estaba enojado porque su &#c144,22,22!&#f:bold!mascota&#f!&#c! había llenado la casa de &#c144,22,22!&#f:bold!plumas&#f!&#c!.",
+2,
+1,
+2,
+-1,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Estaba enojada porque su &#c144,22,22!&#f:bold!mascota&#f!&#c! había llenado la casa de &#c144,22,22!&#f:bold!plumas&#f!&#c!.",
+2,
+2,
+2,
+-1,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Me comentó que no es agradable acariciar a su &#c144,22,22!&#f:bold!mascota&#f!&#c! porque tiene la &#c144,22,22!&#f:bold!piel fría y escamosa&#f!&#c!.",
+2,
+-1,
+3,
+-1,
+-1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Me dijo que pensaba comprar una jaula nueva para su &#c144,22,22!&#f:bold!mascota&#f!&#c! porque la que tenía se había roto y tenía miedo de que se &#c144,22,22!&#f:bold!volara&#f!&#c!.",
+2,
+-1,
+-1,
+-1,
+2
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Me comentó que pensaba llevar a su &#c144,22,22!&#f:bold!mascota&#f!&#c! al parque para que &#c144,22,22!&#f:bold!caminara&#f!&#c! un poco por el césped.",
+2,
+-1,
+-1,
+-1,
+1
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Me dijo que pensaba comprar un estanque del tamaño adecuado para que su &#c144,22,22!&#f:bold!mascota&#f!&#c! &#c144,22,22!&#f:bold!nadara&#f!&#c! cómodamente.",
+2,
+-1,
+-1,
+-1,
+3
+]
+},
+{
+"cls": "JanitorStatement",
+"args": [
+"Me pidió algunos &#c144,22,22!&#f:bold!alimentos&#f!&#c! para llevarle a su &#c144,22,22!&#f:bold!mascota&#f!&#c!.",
+-1,
+-1,
+-1,
+1,
+-1
+]
+}
+],
+"list_clue_types": [
+{
+"cls": "ClueType",
+"args": [
+"RIVER"
+]
+},
+{
+"cls": "ClueType",
+"args": [
+"LAGOON"
+]
+},
+{
+"cls": "ClueType",
+"args": [
+"HILL"
+]
+},
+{
+"cls": "ClueType",
+"args": [
+"LOCATION"
+]
+},
+{
+"cls": "ClueType",
+"args": [
+"HISTORY_FACT"
+]
+},
+{
+"cls": "ClueType",
+"args": [
+"WRITER"
+]
+},
+{
+"cls": "ClueType",
+"args": [
+"MUSICIAN"
+]
+}
+],
+"list_clues": [
+{
+"cls": "Clue",
+"args": [
+"i509",
+[
+{
+"$ref": [
+"list_clue_types",
+0
+]
+},
+{
+"$ref": [
+"list_clue_types",
+1
+]
+},
+{
+"$ref": [
+"list_clue_types",
+3
+]
+},
+{
+"$ref": [
+"list_clue_types",
+2
+]
+}
+]
+]
+},
+{
+"cls": "Clue",
+"args": [
+"i511",
+[
+{
+"$ref": [
+"list_clue_types",
+0
+]
+},
+{
+"$ref": [
+"list_clue_types",
+1
+]
+},
+{
+"$ref": [
+"list_clue_types",
+3
+]
+},
+{
+"$ref": [
+"list_clue_types",
+2
+]
+},
+{
+"$ref": [
+"list_clue_types",
+5
+]
+},
+{
+"$ref": [
+"list_clue_types",
+4
+]
+}
+]
+]
+},
+{
+"cls": "Clue",
+"args": [
+"i510",
+[
+{
+"$ref": [
+"list_clue_types",
+0
+]
+},
+{
+"$ref": [
+"list_clue_types",
+1
+]
+},
+{
+"$ref": [
+"list_clue_types",
+3
+]
+},
+{
+"$ref": [
+"list_clue_types",
+2
+]
+},
+{
+"$ref": [
+"list_clue_types",
+5
+]
+},
+{
+"$ref": [
+"list_clue_types",
+4
+]
+}
+]
+]
+},
+{
+"cls": "Clue",
+"args": [
+"i523",
+[
+{
+"$ref": [
+"list_clue_types",
+2
+]
+},
+{
+"$ref": [
+"list_clue_types",
+1
+]
+},
+{
+"$ref": [
+"list_clue_types",
+0
+]
+},
+{
+"$ref": [
+"list_clue_types",
+4
+]
+},
+{
+"$ref": [
+"list_clue_types",
+3
+]
+},
+{
+"$ref": [
+"list_clue_types",
+5
+]
+}
+]
+]
+},
+{
+"cls": "Clue",
+"args": [
+"i526",
+[
+{
+"$ref": [
+"list_clue_types",
+2
+]
+},
+{
+"$ref": [
+"list_clue_types",
+1
+]
+},
+{
+"$ref": [
+"list_clue_types",
+0
+]
+},
+{
+"$ref": [
+"list_clue_types",
+4
+]
+},
+{
+"$ref": [
+"list_clue_types",
+3
+]
+},
+{
+"$ref": [
+"list_clue_types",
+5
+]
+}
+]
+]
+},
+{
+"cls": "Clue",
+"args": [
+"i527",
+[
+{
+"$ref": [
+"list_clue_types",
+2
+]
+},
+{
+"$ref": [
+"list_clue_types",
+1
+]
+},
+{
+"$ref": [
+"list_clue_types",
+0
+]
+},
+{
+"$ref": [
+"list_clue_types",
+3
+]
+}
+]
+]
+},
+{
+"cls": "Clue",
+"args": [
+"i528",
+[
+{
+"$ref": [
+"list_clue_types",
+2
+]
+},
+{
+"$ref": [
+"list_clue_types",
+1
+]
+},
+{
+"$ref": [
+"list_clue_types",
+0
+]
+},
+{
+"$ref": [
+"list_clue_types",
+4
+]
+},
+{
+"$ref": [
+"list_clue_types",
+3
+]
+},
+{
+"$ref": [
+"list_clue_types",
+5
+]
+}
+]
+]
+}
+],
+"list_rivers": [
+{
+"cls": "RiverNote",
+"args": [
+"Río Arapey",
+[
+{
+"$ref": [
+"list_departments",
+14
+]
+}
+],
+"240 km",
+"11.410 km2",
+"Atraviesa todo el departamento de Salto y desemboca en el río Uruguay.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río Cebollatí",
+[
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+{
+"$ref": [
+"list_departments",
+18
+]
+}
+],
+"240 km",
+"14.085 km2",
+"Corre de SO a NO",
+"Sirve de límite entre los departamentos de Rocha con Lavalleja y Treinta y Tres."
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río Cuareim",
+[
+{
+"$ref": [
+"list_departments",
+0
+]
+}
+],
+"230 km",
+"13.390 km2",
+"Nace en Brasil y bordea el departamento de Artigas hasta que  desemboca en el río Uruguay.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río Daymán",
+[
+{
+"$ref": [
+"list_departments",
+14
+]
+},
+{
+"$ref": [
+"list_departments",
+10
+]
+}
+],
+"150 km",
+"3.183 km2",
+"Sirve de límite entre los departamentos de Salto y Paysandú. Desemboca en el río Uruguay, cerca de allí se encuentran las termas del mismo nombre.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río Olimar",
+[
+{
+"$ref": [
+"list_departments",
+18
+]
+}
+],
+"155 km",
+"5.320 km2",
+"Nace en el departamento de Treinta y Tres y lo atraviesa de O a E para luego desembocar en el río Cebollatí.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río Queguay",
+[
+{
+"$ref": [
+"list_departments",
+10
+]
+}
+],
+"280 km",
+"7.866 km2",
+"Nace en el departamento de Paysandú y desemboca en el río Uruguay.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río Rosario",
+[
+{
+"$ref": [
+"list_departments",
+3
+]
+}
+],
+"90 km",
+"1.745 km2",
+"Nace en el departamento de Colonia y lo atraviesa de N a S para luego desembocar en el Río de la Plata.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río San José",
+[
+{
+"$ref": [
+"list_departments",
+5
+]
+},
+{
+"$ref": [
+"list_departments",
+15
+]
+}
+],
+"130 km",
+"3.543 km2",
+"Nace en el departamento de Flores atraviesa el departamento de San José de NO a SE y desemboca en el río Santa Lucía.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río San Juan",
+[
+{
+"$ref": [
+"list_departments",
+3
+]
+}
+],
+"80 km",
+"1.500 km2",
+"Nace en el departamento de Colonia, corre de NE a SO y desemboca en el Río de la Plata.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río San Luis",
+[
+{
+"$ref": [
+"list_departments",
+13
+]
+}
+],
+"45 km",
+"2.360 km2",
+"Nace en el departamento de Rocha y desemboca en la laguna Merín.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río San Salvador",
+[
+{
+"$ref": [
+"list_departments",
+16
+]
+}
+],
+"135 km",
+"3.000 km2",
+"Nace en el departamento de Soriano y desemboca en el río Uruguay.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río Santa Lucía",
+[
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+{
+"$ref": [
+"list_departments",
+15
+]
+}
+],
+"230 km",
+"13.500 km2",
+"Nace en el departamento de Lavalleja, corre de E a O y es el límite de los departamentos de Florida y Canelones; al S, entre los departamentos de Canelones y San José; desemboca en un pequeño delta, en el Río de la Plata.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río Tacuarembó",
+[
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+{
+"$ref": [
+"list_departments",
+17
+]
+}
+],
+"250 km",
+"14.000 km2",
+"Nace en el departamento de Rivera y corre de N a S, atraviesa el departamento de Tacuarembó y desemboca en el río Negro.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río Tacuarí",
+[
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+{
+"$ref": [
+"list_departments",
+18
+]
+}
+],
+"195 km",
+"3.600 km2",
+"Nace en el departamento de Cerro Largo, recorre el territorio de NO a SE hasta el límite con Treinta y Tres donde desemboca en la laguna Merín.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río Yaguarón",
+[
+{
+"$ref": [
+"list_departments",
+2
+]
+}
+],
+"225 km",
+"3.000 km2",
+"Nace al S del Brasil y es uno de los límites entre este país y el nuestro. Desemboca en la laguna Merín luego de bordear el departamento de Cerro Largo.",
+null
+]
+},
+{
+"cls": "RiverNote",
+"args": [
+"Río Yí",
+[
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+{
+"$ref": [
+"list_departments",
+4
+]
+},
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+{
+"$ref": [
+"list_departments",
+5
+]
+}
+],
+"225 km",
+"12.600 km2",
+"Nace en el límite entre Treinta y Tres, Florida y Durazno. Es el límite entre Florida y Durazno, y entre este último y Flores, hasta desembocar en el Río Negro.",
+null
+]
+}
+],
+"list_lagoons": [
+{
+"cls": "LagoonNote",
+"args": [
+"Laguna de Castillos",
+[
+{
+"$ref": [
+"list_departments",
+13
+]
+}
+],
+"100 km2",
+"Ubicada en el departamento de Rocha.",
+"Se comunica con el océano Atlántico a través del arroyo Valizas."
+]
+},
+{
+"cls": "LagoonNote",
+"args": [
+"Laguna de Rocha",
+[
+{
+"$ref": [
+"list_departments",
+13
+]
+}
+],
+"72 km2",
+"Ubicada en el departamento de Rocha, cerca de la ciudad de La Paloma.",
+null
+]
+},
+{
+"cls": "LagoonNote",
+"args": [
+"Laguna del Sauce",
+[
+{
+"$ref": [
+"list_departments",
+8
+]
+}
+],
+"70 km2",
+"Ubicada en el departamento de Maldonado.",
+"Se conecta con el Río de la Plata a través del arroyo El Potrero."
+]
+},
+{
+"cls": "LagoonNote",
+"args": [
+"Laguna Garzón",
+[
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+{
+"$ref": [
+"list_departments",
+13
+]
+}
+],
+"35 km2",
+"Es el límite entre los departamentos de Maldonado y Rocha. Vierte sus aguas en el Océano Atlántico.",
+null
+]
+},
+{
+"cls": "LagoonNote",
+"args": [
+"Laguna José Ignacio",
+[
+{
+"$ref": [
+"list_departments",
+8
+]
+}
+],
+"35 km2",
+"Ubicada en el departamento de Maldonado. Desemboca sobre el océano Atlántico.",
+null
+]
+},
+{
+"cls": "LagoonNote",
+"args": [
+"Laguna Merín",
+[
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+{
+"$ref": [
+"list_departments",
+2
+]
+}
+],
+"3.750 km2",
+"Ubicada en el límite E de los departamentos de Rocha, Treinta y Tres y Cerro Largo.",
+"Está unida a la Laguna de los Patos, perteneciente a Brasil, a través del río San Gonzalo."
+]
+},
+{
+"cls": "LagoonNote",
+"args": [
+"Laguna Negra",
+[
+{
+"$ref": [
+"list_departments",
+13
+]
+}
+],
+"180 km2",
+"Ubicada en el departamento de Rocha.",
+"Es también conocida como Laguna de los Difuntos."
+]
+}
+],
+"list_hills": [
+{
+"cls": "HillNote",
+"args": [
+"Cerro Tupambaé",
+"el",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"470 metros",
+"Se encuentra en la Sierra de las Ruinas, departamento de Cerro Largo.",
+null
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerros de Ojosmín",
+"los",
+{
+"$ref": [
+"list_departments",
+5
+]
+},
+"209 metros",
+"Se encuentran en la Cuchilla Grande, al O del departamento de Flores.",
+null
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro Arequita",
+"el",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"305 metros",
+"Ubicado en las cercanías de la ciudad de Minas, departamento de Lavalleja, junto a él corre el río Santa Lucía.",
+null
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro Artigas",
+"el",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"215 metros",
+"Ubicado en la ciudad de Minas, departamento de Lavalleja.",
+"En su cima hay una escultura dedicada a nuestro prócer José Artigas."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro del Verdún",
+"el",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"325 metros",
+"Ubicado en las cercanías de la ciudad de Minas, departamento de Lavalleja.",
+"El 19 de abril miles de peregrinos llegan al santuario de la Virgen del Verdún que se encuentra en su cima."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro Penitente",
+"el",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"357 metros",
+"Ubicado en las cercanías de la ciudad de Minas, departamento de Lavalleja.",
+"Aquí nace el arroyo que forma la cascada llamada Salto del Penitente, que tiene 60 metros de altura."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro Baltasar",
+"el",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"329 metros",
+"Ubicado en el departamento de Maldonado. Es un cerro de piedra desnuda que parece haber sido tallado con un cincel.",
+null
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro Catedral",
+"el",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"513 metros",
+"Ubicado en Aiguá, departamento de Maldonado, su nombre se debe a su gran tamaño.",
+"Es el cerro más alto del país."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro de los Burros",
+"el",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"171 metros",
+"También conocido como Cerro de la Virgen. Se encuentra frente a playa Hermosa, departamento de Maldonado.",
+"Está cubierto por una vegetación abundante y es todo un desafío encontrar el camino hacia la cima."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro del Toro",
+"el",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"195 metros",
+"Ubicado en Piriápolis, departamento de Maldonado.",
+"En su ladera se encuentra la famosa Fuente del Toro que Francisco Piria hizo traer especialmente de París. Es la escultura de un toro de tamaño natural y por su boca brota una chorro de agua mineral."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro Pan de Azúcar",
+"el",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"389 metros",
+"Ubicado en el departamento de Maldonado.",
+"En su cumbre hay una cruz de 35 metros de altura, a la que se puede subir para disfrutar del panorama. A sus pies se encuentra la reserva de fauna autóctona."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro San Antonio",
+"el",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"130 metros",
+"También llamado Cerro del Inglés. Se encuentra en Piriápolis, departamento de Maldonado.",
+"Se puede acceder a la cima en un sistema de aerosillas. Allí se encuentra el templo de San Antonio, cuya imagen tallada en terracota fue traída desde Milán."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro de las Ánimas",
+"el",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"501 metros",
+"Situado en la Sierra de las Ánimas, que a su vez forma parte de la Cuchilla Grande, departamento de Maldonado.",
+"Es el segundo cerro más alto del país."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro de Montevideo",
+"el",
+{
+"$ref": [
+"list_departments",
+9
+]
+},
+"134 metros",
+"Situado en la ciudad de Montevideo.",
+"Tiene un faro que funciona con el mecanismo original, de principios de siglo."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro Bonito",
+"el",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"351 metros",
+"Ubicado en el valle del Lunarejo, departamento de Rivera.",
+null
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro de los Chivos",
+"el",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"284 metros",
+"Ubicado en el departamento de Rivera.",
+"Pertenece al grupo de cerros chatos denominado Tres Cerros del Cuñapirú."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro del Medio",
+"el",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"221 metros",
+"Ubicado en el departamento de Rivera.",
+"Pertenece al grupo de cerros chatos llamado Tres Cerros del Cuñapirú."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro Lunarejo",
+"el",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"332 metros",
+"Ubicado entre las localidades de Tranqueras y Masoller, departamento de Rivera, en el valle del arroyo del mismo nombre.",
+"Se encuentra cubierto por una vegetación abundante."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro Miriñaque",
+"el",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"282 metros",
+"Ubicado en el departamento de Rivera.",
+"Pertenece al grupo de cerros chatos llamado Tres Cerros de Cuñapirú."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro Batoví",
+"el",
+{
+"$ref": [
+"list_departments",
+17
+]
+},
+"224 metros",
+"Ubicado a 25 kilómetros de la ciudad de Tacuarembó, capital del departamento.",
+"Su nombre en guaraní significa \"seno de virgen\" y es el emblema del departamento."
+]
+},
+{
+"cls": "HillNote",
+"args": [
+"Cerro Cementerio",
+"el",
+{
+"$ref": [
+"list_departments",
+17
+]
+},
+"255 metros",
+"Ubicado en las proximidades del Valle Edén, departamento de Tacuarembó.",
+"Se trata de un enorme peñasco que tiene un gran valor arqueológico por contar con un cementerio indígena, con sus tumbas, veredas y escalones."
+]
+}
+],
+"list_history_facts": [
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"el",
+"Grito de Asencio",
+[
+{
+"$ref": [
+"list_departments",
+16
+]
+}
+],
+"27 de febrero de 1811",
+"Tuvo lugar cerca del arroyo Asencio, actual departamento de Soriano.",
+"Desde allí, un grupo de revolucionarios orientales condujeron las primeras acciones de la Revolución oriental."
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"el",
+"Desembarco de los 33 Orientales",
+[
+{
+"$ref": [
+"list_departments",
+16
+]
+}
+],
+"19 de abril de 1825",
+"Tuvo lugar en la playa de la Agraciada, departamento de Soriano.",
+"Desde allí comenzó la Cruzada Libertadora."
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Declaratoria de la independencia",
+[
+{
+"$ref": [
+"list_departments",
+6
+]
+}
+],
+"18 de julio de 1825",
+"Tuvo lugar en el paraje conocido como Piedra Alta, en las cercanías de la ciudad de Florida.",
+"En este acto se declaró la independencia de la Provincia Oriental con respecto al Brasil, se estableció su pabellón y se dictaminó su unión a las Provincias Unidas del Río de la Plata."
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"comenzó",
+"el",
+"Éxodo del Pueblo Oriental",
+[
+{
+"$ref": [
+"list_departments",
+15
+]
+}
+],
+"23 de octubre de 1811",
+"Se denomina éxodo del Pueblo Oriental a la emigración colectiva de casi la totalidad de las poblaciones criollas de la Banda Oriental. Siguieron a José G. Artigas cuando se retiró, al levantarse el Sitio de Montevideo.",
+"Partieron desde las cercanías del arroyo San José."
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Jura de la Constitución",
+[
+{
+"$ref": [
+"list_departments",
+9
+]
+}
+],
+"18 de julio de 1830",
+"Fue la primera Constitución uruguaya y estaba basada en las Constituciones de Francia, Estados Unidos, Argentina, Brasil, Chile y España.",
+"El acto se desarrolló en el edificio del Cabildo, frente a la Plaza Matriz de Montevideo"
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"se redactaron",
+"Las",
+"Instrucciones del Año XIII",
+[
+{
+"$ref": [
+"list_departments",
+9
+]
+}
+],
+"13 de abril de 1813",
+"Son las Instrucciones que llevaron los representantes de la Provincia Oriental, aprobadas en el Congreso de Tres Cruces, a la Asamblea Constituyente en Buenos Aires. En ellas se establecieron las normas que regirían a la Provincia una vez conquistada la independencia.",
+"La redacción se llevó a cabo en la quinta de Manuel Sainz de Cavia, en Montevideo, en la actual intersección de las calles avenida Italia y Morales."
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Batalla de Arbolito",
+[
+{
+"$ref": [
+"list_departments",
+2
+]
+}
+],
+"28 de febrero de 1897",
+"Fue un enfrentamiento entre el ejército colorado, al mando del general Justino Muniz, y las fuerzas revolucionarias blancas, al mando de Aparicio Saravia.",
+"Tuvo lugar en la cuchilla de Arbolito, en el departamento de Cerro Largo."
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Batalla de Arroyo Grande",
+[
+{
+"$ref": [
+"list_departments",
+16
+]
+},
+{
+"$ref": [
+"list_departments",
+5
+]
+}
+],
+"6 de diciembre de 1842",
+"Fue uno de los enfrentamientos que se produjeron durante la Guerra Grande, entre el ejército de la Confederación, al mando del general Manuel Oribe, y las fuerzas del Gobierno de Montevideo, al mando del general Fructuoso Rivera.",
+"Tuvo lugar en los márgenes de dicho arroyo, afluente del río Negro, que conforma el límite de los Departamentos de Soriano y Flores."
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Batalla de Cagancha",
+[
+{
+"$ref": [
+"list_departments",
+15
+]
+}
+],
+"29 de diciembre de 1839",
+"Fue uno de los enfrentamientos que se produjeron durante la Guerra Grande, entre el ejército de la Confederación, al mando del general Pascual Echagüe, y las fuerzas del Gobierno de Montevideo, al mando del general Fructuoso Rivera.",
+"Tuvo lugar cerca del arroyo de Cagancha, en el Departamento de San José."
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Batalla de Cardal",
+[
+{
+"$ref": [
+"list_departments",
+9
+]
+}
+],
+"20 de enero de 1807",
+"Enfrentamiento entre las fuerzas defensoras de la ciudad de Montevideo y los soldados de la Armada inglesa, durante las Invasiones inglesas.",
+null
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Batalla de Carpintería",
+[
+{
+"$ref": [
+"list_departments",
+4
+]
+}
+],
+"19 de setiembre de 1836",
+"Enfrentamiento entre el ejército del Gobierno, al mando de general Manuel Oribe, y las fuerzas revolucionarias, dirigidas por el general Fructuoso Rivera. En esta batalla nacieron las divisas blanca y colorada.",
+"Tuvo lugar en las cercanías del arroyo Carpintería, en el Departamento de Durazno."
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Batalla de Cerrito",
+[
+{
+"$ref": [
+"list_departments",
+9
+]
+}
+],
+"31 de diciembre de 1812",
+"Combate entre las fuerzas revolucionarias que sitiaban Montevideo, bajo las órdenes del general José Rondeau, y las tropas españolas al mando del mariscal Vigodet.",
+null
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Batalla de Guayabo",
+[
+{
+"$ref": [
+"list_departments",
+14
+]
+}
+],
+"10 de enero de 1815",
+"Enfrentamiento entre el ejército de Buenos Aires, al mando del coronel Manuel Dorrego, y las fuerzas revolucionarias orientales, comandadas por el general Fructuoso Rivera.",
+"Tuvo lugar en las cercanías del arroyo del mismo nombre, en el SE del departamento de Salto"
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Batalla de India Muerta",
+[
+{
+"$ref": [
+"list_departments",
+13
+]
+}
+],
+"27 de marzo de 1845",
+"Librada durante la Guerra Grande, entre el ejército sitiador de Montevideo, al mando del general Manuel Oribe, y las fuerzas del ejército de la Defensa, al mando del general Fructuoso Rivera.",
+"Tuvo lugar en las costas del arroyo del mismo nombre, situado en el departamento de Rocha."
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Batalla de Las Piedras",
+[
+{
+"$ref": [
+"list_departments",
+1
+]
+}
+],
+"18 de mayo de 1811",
+"Enfrentamiento entre las tropas españolas y las fuerzas revolucionarias al mando del general José Gervasio Artigas.",
+"Tuvo lugar en las cercanías de lo que hoy es la ciudad de Las Piedras, en el departatmento de Canelones"
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Batalla de Palmar",
+[
+{
+"$ref": [
+"list_departments",
+11
+]
+}
+],
+"15 de junio de 1838",
+"Librada entre las tropas del ejército del Gobierno de la República, al mando del general Manuel Oribe, y las fuerzas revolucionarias, dirigidas por el general Fructuoso Rivera.",
+"Tuvo lugar al norte del departamento de Río Negro, en una región así denominada por la abundancia de altas palmeras."
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Batalla de Rincón",
+[
+{
+"$ref": [
+"list_departments",
+11
+]
+}
+],
+"24 de diciembre de 1825",
+"Enfrentamiento entre el ejército imperial brasileño, al mando de los coroneles Mena Barreto y Jardim, y las tropas de la Cruzada Libertadora, comandadas por el general Fructuoso Rivera.",
+"Tuvo lugar en un área conocida como \"Rincón de Haedo\", encerrada por la confluencia de los ríos Uruguay y Negro, en el actual departamento de Río Negro."
+]
+},
+{
+"cls": "HistoryFactNote",
+"args": [
+"tuvo lugar",
+"la",
+"Batalla de Sarandí",
+[
+{
+"$ref": [
+"list_departments",
+6
+]
+}
+],
+"12 de octubre de 1825",
+"Librada entre las tropas brasileñas y las tropas de la Cruzada Libertadora al mando de los generales Juan Antonio Lavalleja, Manuel Oribe y Fructuoso Rivera.",
+"Tuvo lugar en las costas del Arroyo Sarandí, afluente del río Yi, en el Departamento de Florida."
+]
+}
+],
+"list_locations": [
+{
+"cls": "LocationNote",
+"args": [
+"Baltasar Brum",
+{
+"$ref": [
+"list_departments",
+0
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"2.472 hab.",
+"Pueblo situado en el SO del departamento de Artigas."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Bella Unión",
+{
+"$ref": [
+"list_departments",
+0
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"13.187 hab.",
+"Ciudad situada en el NO del departamento de Artigas."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Las Piedras",
+{
+"$ref": [
+"list_departments",
+0
+]
+},
+"Centro poblado",
+"visitar el centro poblado de",
+"2.164 hab.",
+"Centro poblado situado en el NO del departamento de Artigas.",
+"centro poblado"
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Pintadito",
+{
+"$ref": [
+"list_departments",
+0
+]
+},
+"Centro poblado",
+"visitar el centro poblado de",
+"1.487 hab.",
+"Centro poblado situado en el NE del departamento de Artigas."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Tomás Gomensoro",
+{
+"$ref": [
+"list_departments",
+0
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"2.818 hab.",
+"Pueblo situado en el NO del departamento de Artigas."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Aguas Corrientes",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.095 hab.",
+"Pueblo situado en el O del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Atlántida",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"4.580 hab.",
+"Ciudad situada en el S del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Los Cerrillos",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Villa",
+"visitar villa",
+"2.080 hab.",
+"Villa situada en el O del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Ciudad de la Costa",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"66.402 hab.",
+"Ciudad situada en el SO del departamento de Canelones, integrada por las localidades de San José de Carrasco, Barra de Carrasco, Parque Carrasco, Solymar, Lomas de Solymar, Colinas de Solymar, El Pinar, Lagomar, Shangrilá y El Bosque."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Colonia Nicolich",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Centro poblado",
+"visitar el centro poblado de",
+"8,811 hab.",
+"Centro poblado situado en el SO del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Empalme Olmos",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"3.978 hab.",
+"Pueblo situado en el S del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Joaquín Suárez",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"6.124 hab.",
+"Ciudad situada en el SO del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"La Paz",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"19.832 hab.",
+"Ciudad situada en el SO del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Las Piedras",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"69.222 hab.",
+"Ciudad situada en el SO del departamento de Canelones.",
+"ciudad"
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Migues",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Villa",
+"visitar villa",
+"2.180 hab.",
+"Villa situada en el E del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Montes",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.713 hab.",
+"Pueblo situado en el E del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Pando",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"24.004 hab.",
+"Ciudad situada en el SO del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Parque del Plata",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"5.900 hab.",
+"Ciudad situada en el S del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Paso de Carrasco",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"15.028 hab.",
+"Pueblo situado en el SO del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Progreso",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"15.775 hab.",
+"Ciudad situada en el SO del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Salinas",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"6.574 hab.",
+"Ciudad situada en el S del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"San Antonio",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.434 hab.",
+"Pueblo situado en el N del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"San Bautista",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.880 hab.",
+"Pueblo situado en el centro del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"San Jacinto",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Villa",
+"visitar villa",
+"3.909 hab.",
+"Villa situada en el centro del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"San Ramón",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"6.992 hab.",
+"Ciudad situada en el N del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Santa Lucía",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"16.475 hab.",
+"Ciudad situada en el NO del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Santa Rosa",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Población",
+"visitar la población de",
+"3.660 hab.",
+"Población situada en el centro del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Sauce",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Población",
+"visitar la población de",
+"5.797 hab.",
+"Población situada en el SO del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Soca",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"1.742 hab.",
+"Ciudad situada en el SE del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Tala",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Población",
+"visitar la población de",
+"4.939 hab.",
+"Población situada en el NE del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Toledo",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"Localidad",
+"visitar la población de",
+"4.028 hab.",
+"Localidad situada en el SO del departamento de Canelones."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Aceguá",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.493 hab.",
+"Pueblo situado en el N del departamento de Cerro Largo."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Fraile Muerto",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"Villa",
+"visitar villa",
+"3.229 hab.",
+"Villa situada en el centro del departamento de Cerro Largo."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Isidoro Noblía",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"2.462 hab.",
+"Pueblo situado en el NE del departamento de Cerro Largo."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Melo",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"50.578 hab.",
+"Ciudad situada en el centro del departamento de Cerro Largo, es su capital."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Río Branco",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"13.456 hab.",
+"Ciudad situada en el SE del departamento de Cerro Largo."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Carmelo",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"16.866 hab.",
+"Ciudad ubicada en el O del departamento de Colonia."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Colonia del Sacramento",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"21.714 hab.",
+"Ciudad ubicada en el SO del departamento de Colonia."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Colonia Valdense",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"3.087 hab.",
+"Ciudad situada en el SE del departamento de Colonia."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Florencio Sánchez",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Villa",
+"visitar villa",
+"3.526 hab.",
+"Villa situada en el NE del departamento de Colonia.",
+"localidad"
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Juan Lacaze",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"13.196 hab.",
+"Ciudad situada en el S del departamento de Colonia."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Nueva Helvecia",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"10.002 hab.",
+"Ciudad situada en el SE del departamento de Colonia."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Nueva Palmira",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"9.230 hab.",
+"Ciudad situada en el NO del departamento de Colonia."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Ombúes de Lavalle",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Villa",
+"visitar villa",
+"3.451 hab.",
+"Villa situada en el N del departamento de Colonia."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Rosario",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"9.311 hab.",
+"Ciudad situada en el SE del departamento de Colonia."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Tarariras",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"6.070 hab.",
+"Ciudad situada en el SO del departamento de Colonia."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Blanquillo",
+{
+"$ref": [
+"list_departments",
+4
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.162 hab.",
+"Pueblo situado en el NE del departamento de Durazno."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Carlos Reyles",
+{
+"$ref": [
+"list_departments",
+4
+]
+},
+"Población",
+"visitar la población de",
+"1.039 hab.",
+"Población situada en el centro del departamento de Durazno."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Carmen",
+{
+"$ref": [
+"list_departments",
+4
+]
+},
+"Villa",
+"visitar villa",
+"2.661 hab.",
+"Villa situada en el centro del departamento de Durazno."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"La Paloma",
+{
+"$ref": [
+"list_departments",
+4
+]
+},
+"Centro poblado",
+"visitar el centro poblado de",
+"1.547 hab.",
+"Centro poblado ubicado en el NE del departamento de Durazno.",
+"centro poblado"
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Santa Bernardina",
+{
+"$ref": [
+"list_departments",
+4
+]
+},
+"Población",
+"visitar la población de",
+"1.333 hab.",
+"Población ubicada en el SO del departamento de Durazno."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Sarandí del Yi",
+{
+"$ref": [
+"list_departments",
+4
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"7.289 hab.",
+"Ciudad situada en el SO del departamento de Durazno."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Ismael Cortinas",
+{
+"$ref": [
+"list_departments",
+5
+]
+},
+"Población",
+"visitar la población de",
+"1.069 hab.",
+"Población situada en el SO del departamento de Flores.",
+"localidad"
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Trinidad",
+{
+"$ref": [
+"list_departments",
+5
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"20.982 hab.",
+"Ciudad situada en el centro del departamento Flores, es su capital"
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Andresito",
+{
+"$ref": [
+"list_departments",
+5
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"271 hab.",
+"Pueblo situado en el N del departamento de Flores."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"La Casilla",
+{
+"$ref": [
+"list_departments",
+5
+]
+},
+"Caserío",
+"visitar el pueblo de",
+"181 hab.",
+"Caserío situado en el centro del departamento de Flores."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Cardal",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.290 hab.",
+"Pueblo situado en el SO del departamento de Florida."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Casupá",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"Villa",
+"visitar villa",
+"2.668 hab.",
+"Villa situada en el SE del departamento de Florida."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Cerro Colorado",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.336 hab.",
+"Pueblo situado en el SE del departamento de Florida."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Fray Marcos",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"Villa",
+"visitar villa",
+"2.509 hab.",
+"Villa situada en el SE del departamento de Florida."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Nico Pérez",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.049 hab.",
+"Pueblo situado en el NE del departamento de Florida."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Sarandí Grande",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"6.362 hab.",
+"Ciudad situada en el NO del departamento de Florida."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Veinticinco de Agosto",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"Villa",
+"visitar villa",
+"1.794 hab.",
+"Villa situada en el SO del departamento de Florida."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Veinticinco de Mayo",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"Villa",
+"visitar villa",
+"1.845 hab.",
+"Villa situada en el SO del departamento de Florida."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"José Batlle y Ordóñez",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"2.424 hab.",
+"Pueblo situado en el NO del departamento de Lavalleja."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"José Pedro Varela",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"5.332 hab.",
+"Ciudad situada en el NO del departamento de Lavalleja."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Mariscala",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.674 hab.",
+"Pueblo situado en el SE del departamento de Lavalleja."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Minas",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"37.925 hab.",
+"Ciudad situada en el SO del departamento de Lavalleja, es su capital."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Solís de Mataojo",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"Villa",
+"visitar villa",
+"2.676 hab.",
+"Villa situada en el SO del departamento de Lavalleja."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Aiguá",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"2.676 hab.",
+"Ciudad situada en el S del departamento de Maldonado."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Cerro Pelado",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"Población",
+"visitar la población de",
+"6.385 hab.",
+"Población situada en el E del departamento de Maldonado."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Pan de Azúcar",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"7.098 hab.",
+"Ciudad situada en el SO del departamento de Maldonado."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Pinares - Las Delicias",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"Balneario",
+"visitar el balneario",
+"8.524 hab.",
+"Balneario situado en S del departamento de Maldonado."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Piriápolis",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"7.899 hab.",
+"Ciudad situada en el SO del departamento de Maldonado."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Punta del Este",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"7.298 hab.",
+"Ciudad situada en el S del departamento de Maldonado."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"San Carlos",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"24.771 hab.",
+"Ciudad situada en el S del departamento de Maldonado."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"San Rafael - El Placer",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"Balneario",
+"visitar el balneario",
+"1.994 hab.",
+"Balneario situado en el S del departamento de Maldonado."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Tambores",
+{
+"$ref": [
+"list_departments",
+10
+]
+},
+"Población",
+"visitar la población de",
+"1.180 hab.",
+"Población situada en el E del departamento de Paysandú."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Guichón",
+{
+"$ref": [
+"list_departments",
+10
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"5.025 hab.",
+"Ciudad situada en el S del departamento de Paysandú."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Nuevo Paysandú",
+{
+"$ref": [
+"list_departments",
+10
+]
+},
+"Centro poblado",
+"visitar el centro poblado de",
+"7.468 hab.",
+"Centro poblado situado en el O del departamento de Paysandú."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Piedras Coloradas",
+{
+"$ref": [
+"list_departments",
+10
+]
+},
+"Centro poblado ",
+"visitar el centro poblado de",
+"1.113 hab.",
+"Centro poblado situado en el SO del departamento de Paysandú."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Quebracho",
+{
+"$ref": [
+"list_departments",
+10
+]
+},
+"Villa",
+"visitar villa",
+"2.813 hab.",
+"Villa situada en el NO del departamento de Paysandú."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"San Félix",
+{
+"$ref": [
+"list_departments",
+10
+]
+},
+"Centro poblado",
+"visitar el centro poblado de",
+"1.149 hab.",
+"Centro poblado situado en el SO del departamento de Paysandú."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Fray Bentos",
+{
+"$ref": [
+"list_departments",
+11
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"23.122 hab.",
+"Ciudad situada en el SO del departamento de Río Negro, es su capital."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Nuevo Berlín",
+{
+"$ref": [
+"list_departments",
+11
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"2.438 hab.",
+"Pueblo situado en el NO del departamento de Río Negro."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"San Javier",
+{
+"$ref": [
+"list_departments",
+11
+]
+},
+"Villa",
+"visitar villa",
+"1.680 hab.",
+"Villa situada en el NO del departamento de Río Negro."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Young",
+{
+"$ref": [
+"list_departments",
+11
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"15.759 hab.",
+"Ciudad situada en el centro del departamento de Río Negro."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Mandubí",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"Fraccionamiento",
+"visitar el fraccionamiento de",
+"5.157 hab.",
+"Fraccionamiento situado en el NE del departamento de Rivera."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Minas de Corrales",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"3.444 hab.",
+"Pueblo situado en el O del departamento de Rivera."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Santa Teresa",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"Centro poblado",
+"visitar el centro poblado de",
+"2.171 hab.",
+"Centro poblado situado en el NE del departamento de Rivera."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Tranqueras",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"7.284 hab.",
+"Ciudad situada en el NO del departamento de Rivera."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Vichadero",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"Villa",
+"visitar villa",
+"4.074 hab.",
+"Villa situada en el SE del departamento de Rivera."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Castillos",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"7.649 hab.",
+"Ciudad situada en el SE del departamento de Rocha."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Cebollatí",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.606 hab.",
+"Pueblo situado en el N del departamento de Rocha."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Chuy",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"10.401 hab.",
+"Ciudad situada en el E del departamento de Rocha."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Dieciocho de Julio",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"Villa",
+"visitar villa",
+"1.191 hab.",
+"Villa situada en el E del departamento de Rocha."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"La Aguada - Costa Azul",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.103 hab.",
+"Pueblo situado en el S del departamento de Rocha."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"La Paloma",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"3.202 hab.",
+"Ciudad situada en el S del departamento de Rocha.",
+"ciudad"
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Lascano",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"6.994 hab.",
+"Ciudad situada en el NO del departamento de Rocha."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Velázquez",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"Población",
+"visitar la población de",
+"1.084 hab.",
+"Población situada en el O del departamento de Rocha."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Belén",
+{
+"$ref": [
+"list_departments",
+14
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"2.030 hab.",
+"Pueblo situado en el NO del departamento de Salto."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Constitución",
+{
+"$ref": [
+"list_departments",
+14
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"2.844 hab.",
+"Pueblo situado en el O del departamento de Salto."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Pueblo Lavalleja",
+{
+"$ref": [
+"list_departments",
+14
+]
+},
+"Centro poblado",
+"visitar el centro poblado de",
+"1049 hab.",
+"Centro poblado situado en el  N del departamento de Salto."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Ciudad del Plata",
+{
+"$ref": [
+"list_departments",
+15
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"26.582 hab.",
+"Ciudad situada en el SE del departamento de San José."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Ecilda Paullier",
+{
+"$ref": [
+"list_departments",
+15
+]
+},
+"Villa",
+"visitar villa",
+"2.351 hab.",
+"Villa situada en el SO del departamento de San José"
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Libertad",
+{
+"$ref": [
+"list_departments",
+15
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"9.196 hab.",
+"Ciudad situada en el SE del departamento de San José."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Puntas de Valdez",
+{
+"$ref": [
+"list_departments",
+15
+]
+},
+"Centro poblado",
+"visitar el centro poblado de",
+"1.267 hab.",
+"Centro poblado situado en el S del departamento de San José."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Rafael Perazza",
+{
+"$ref": [
+"list_departments",
+15
+]
+},
+"Población",
+"visitar la población de",
+"1.235 hab.",
+"Población situada en el S del departamento de San José."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Rodríguez",
+{
+"$ref": [
+"list_departments",
+15
+]
+},
+"Villa",
+"visitar villa",
+"2.561 hab.",
+"Villa situada en el E del departamento de San José."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Cardona",
+{
+"$ref": [
+"list_departments",
+16
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"4.689 hab.",
+"Ciudad situada en el SE del departamento de Soriano."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Chacras de Dolores",
+{
+"$ref": [
+"list_departments",
+16
+]
+},
+"Población",
+"visitar la población de",
+"3.251 hab.",
+"Población situada en el O del departamento de Soriano."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Dolores",
+{
+"$ref": [
+"list_departments",
+16
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"15.753 hab.",
+"Ciudad situada en el O del departamento de Soriano."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"José Enrique Rodó",
+{
+"$ref": [
+"list_departments",
+16
+]
+},
+"Villa",
+"visitar villa",
+"2.113 hab.",
+"Villa situada en el S del departamento de Soriano.",
+"localidad"
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Mercedes",
+{
+"$ref": [
+"list_departments",
+16
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"42.032 hab.",
+"Ciudad situada en el NO del departamento de Soriano, es su capital."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Palmitas",
+{
+"$ref": [
+"list_departments",
+16
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.954 hab.",
+"Pueblo situado en el centro del departamento de Soriano."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Santa Catalina",
+{
+"$ref": [
+"list_departments",
+16
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.053 hab.",
+"Pueblo situado en el S del departamento de Soriano."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Ansina",
+{
+"$ref": [
+"list_departments",
+17
+]
+},
+"Villa",
+"visitar villa",
+"2.790 hab.",
+"Villa situada en el NE del departamento de Tacuarembó."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Curtina",
+{
+"$ref": [
+"list_departments",
+17
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.029 hab.",
+"Pueblo situado en el O del departamento de Tacuarembó."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Paso de los Toros",
+{
+"$ref": [
+"list_departments",
+17
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"13.231 hab.",
+"Ciudad situada en el SO del departamento de Tacuarembó."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"San Gregorio de Polanco",
+{
+"$ref": [
+"list_departments",
+17
+]
+},
+"Villa",
+"visitar villa",
+"3.673 hab.",
+"Villa situada en el S del departamento de Tacuarembó."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Villa Sara",
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+"Centro poblado",
+"visitar el centro poblado de",
+"1.056 hab.",
+"Centro poblado situado en el S del departamento de Treinta y Tres."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Gral. Enrique Martínez",
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+"Pueblo",
+"visitar el pueblo de",
+"1.513 hab.",
+"Pueblo situado en el SE del departamento de Treinta y Tres."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Santa Clara de Olimar",
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+"Villa",
+"visitar villa",
+"2.305 hab.",
+"Villa situada en el NO del departamento de Treinta y Tres."
+]
+},
+{
+"cls": "LocationNote",
+"args": [
+"Vergara",
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+"Ciudad",
+"visitar la ciudad de",
+"3.986 hab.",
+"Ciudad situada en el E del departamento de Treinta y Tres."
+]
+}
+],
+"list_writers": [
+{
+"cls": "WriterNote",
+"args": [
+"Eliseo Salvador Porta",
+"M",
+{
+"$ref": [
+"list_departments",
+0
+]
+},
+"(1912 - 1972)",
+"Narrador, poeta y ensayista nacido en Tomás Gomensoro, departamento de Artigas."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Alba Roballo",
+"F",
+{
+"$ref": [
+"list_departments",
+0
+]
+},
+"(1908 - 1996)",
+"Poetisa nacida en Isla Cabello (actual Baltasar Brum), departamento de Artigas."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Américo Celestino del Cioppo",
+"M",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"(1904 - 1996)",
+"Poeta y hombre de teatro nacido en la ciudad de Canelones."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Marcelo Pareja",
+"M",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"(1954)",
+"Poeta nacido en Las Piedras, departamento de Canelones."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Milton Stelardo",
+"M",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"(1918 - 2001)",
+"Narrador nacido en la ciudad de Canelones."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Javier de Viana",
+"M",
+{
+"$ref": [
+"list_departments",
+1
+]
+},
+"(1868 - 1926)",
+"Narrador, cronista y dramaturgo nacido en la ciudad de Canelones."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Gley Eyherabide",
+"M",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"(1934)",
+"Narrador nacido en Melo, departamento de Cerro Largo."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Juana de Ibarbourou",
+"F",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"(1892 - 1979)",
+"Poetisa y narradora nacida en Melo, departamento de Cerro Largo."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"José Monegal",
+"M",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"(1892 - 1968)",
+"Narrador y biógrafo nacido en Melo, departamento de Cerro Largo."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Emilio Oribe",
+"M",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"(1893 - 1975)",
+"Poeta y ensayista nacido en Melo, departamento de Cerro Largo."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Justino Zavala Muníz",
+"M",
+{
+"$ref": [
+"list_departments",
+2
+]
+},
+"(1898 - 1968)",
+"Narrador, dramaturgo e historiador nacido en Melo, departamento de Cerro Largo."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Carlos Martínez Moreno",
+"M",
+{
+"$ref": [
+"list_departments",
+3
+]
+},
+"(1917 - 1986)",
+"Narrador, crítico teatral y literario nacido en la ciudad de Colonia del Sacramento."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Roberto Bula Píriz",
+"M",
+{
+"$ref": [
+"list_departments",
+4
+]
+},
+"(1919 - ?)",
+"Poeta y ensayista nacido en Sarandí del Yí, departamento de Durazno."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Generoso Medina",
+"M",
+{
+"$ref": [
+"list_departments",
+4
+]
+},
+"(1922 - 1974)",
+"Poeta y crítico nacido en la ciudad de Durazno."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Omar Moreira",
+"M",
+{
+"$ref": [
+"list_departments",
+4
+]
+},
+"(1932)",
+"Narrador nacido en Puntas del Cordobés, departamento de Durazno."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Elías Regules",
+"M",
+{
+"$ref": [
+"list_departments",
+4
+]
+},
+"(1861 - 1929)",
+"Poeta nacido en Sarandí del Yi, departamento de Durazno."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Mario Arregui",
+"M",
+{
+"$ref": [
+"list_departments",
+5
+]
+},
+"(1917 - 1985)",
+"Narrador y biógrafo nacido en Trinidad, departamento de Flores."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Juan Cunha",
+"M",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"(1910 - 1985)",
+"Poeta nacido en Sauce de Illescas, departamento de Florida."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Mario Delgado Aparaín",
+"M",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"(1949)",
+"Narrador nacido en la ciudad de Florida."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Víctor Dotti",
+"M",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"(1907 - 1955)",
+"Narrador nacido en Molles del Pescado, departamento de Florida."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Juan Mario Magallanes",
+"M",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"(1893 - 1950)",
+"Poeta y narrador nacido en la ciudad de Florida."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Omar Prego Gadea",
+"M",
+{
+"$ref": [
+"list_departments",
+6
+]
+},
+"(1927)",
+"Narrador y ensayista nacido en la ciudad de Florida."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Manuel Benavente",
+"M",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"(1893 - 1950)",
+"Poeta y ensayista nacido en Minas, departamento de Lavalleja."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Guillermo Cuadri",
+"M",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"(1884 - 1953)",
+"Poeta y prosista nacido en Minas, departamento de Lavalleja."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Santiago Dossetti",
+"M",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"(1902 - 1981)",
+"Narrador nacido en Gutierrez, departamento de Lavalleja."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Milton Fornaro",
+"M",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"(1947)",
+"Narrador nacido en Minas, departamento de Lavalleja."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Rubén Loza Aguerrebere",
+"M",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"(1945)",
+"Narrador nacido en Minas, departamento de Lavalleja."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Juan José Morosoli",
+"M",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"(1899 - 1957)",
+"Narrador, poeta y ensayista nacido en Minas, departamento de Lavalleja."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Ariel Muniz",
+"M",
+{
+"$ref": [
+"list_departments",
+7
+]
+},
+"(1942)",
+"Narrador nacido en Minas, departamento de Lavalleja."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Blanca Luz Brum",
+"F",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"(1905 - 1985)",
+"Poetisa y narradora nacida en Pan de Azúcar, departamento de Maldonado."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Alvaro Figueredo",
+"M",
+{
+"$ref": [
+"list_departments",
+8
+]
+},
+"(1907 - 1966)",
+"Poeta nacido en Pan de Azúcar, departamento de Maldonado."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Juan Fagetti",
+"M",
+{
+"$ref": [
+"list_departments",
+10
+]
+},
+"(1888 - 1954)",
+"Poeta nacido en la ciudad de Paysandú."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Luisa Luisi",
+"F",
+{
+"$ref": [
+"list_departments",
+10
+]
+},
+"(1883 - 1940)",
+"Poetisa y ensayista nacida en la ciudad de Paysandú."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Domingo Luis Bordoli Castelli",
+"M",
+{
+"$ref": [
+"list_departments",
+11
+]
+},
+"(1919 - 1982)",
+"Crítico y narrador nacido en Fray Bentos, departamento de Río Negro."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Sarandy Cabrera",
+"M",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"(1923 - 2005)",
+"Poeta nacido en la ciudad de Rivera."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Ofelia Machado Bonet",
+"F",
+{
+"$ref": [
+"list_departments",
+12
+]
+},
+"(1908 - 1987)",
+"Poetisa, novelista y ensayista nacida en la ciudad de Rivera."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Gladys Castelvecchi",
+"F",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"(1922 - 2008)",
+"Poetisa nacida en la ciudad de Rocha."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Eduardo Dieste",
+"M",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"(1882 - 1954)",
+"Ensayista, narrador y autor teatral nacido en la ciudad de Rocha."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Elías Uriarte",
+"M",
+{
+"$ref": [
+"list_departments",
+13
+]
+},
+"(1945)",
+"Poeta nacido en la ciudad de Rocha."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Enrique Amorim",
+"M",
+{
+"$ref": [
+"list_departments",
+14
+]
+},
+"(1900 - 1960)",
+"Narrador, poeta, dramaturgo y libretista cinematográfico nacido en la ciudad de Salto."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Horacio Quiroga",
+"M",
+{
+"$ref": [
+"list_departments",
+14
+]
+},
+"(1878 - 1937)",
+"Narrador nacido en la ciudad de Salto."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Francisco Espínola",
+"M",
+{
+"$ref": [
+"list_departments",
+15
+]
+},
+"(1901 - 1973)",
+"Narrador, ensayista y dramaturgo nacido en la ciudad de San José de Mayo."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Ismael Cortinas",
+"M",
+{
+"$ref": [
+"list_departments",
+15
+]
+},
+"(1884 - 1940)",
+"Narrador y dramaturgo nacido en la ciudad de San José de Mayo."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Ricardo Paseyro",
+"M",
+{
+"$ref": [
+"list_departments",
+16
+]
+},
+"(1926)",
+"Poeta y crítico nacido en Mercedes, departamento de Soriano."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Washington Benavides",
+"M",
+{
+"$ref": [
+"list_departments",
+17
+]
+},
+"(1930)",
+"Poeta nacido en la ciudad de Tacuarembó."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Mario Benedetti",
+"M",
+{
+"$ref": [
+"list_departments",
+17
+]
+},
+"(1920-2009)",
+"Narrador, poeta, dramaturgo y periodista nacido en Paso de los Toros, departamento de Tacuarembó."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Victor Cunha",
+"M",
+{
+"$ref": [
+"list_departments",
+17
+]
+},
+"(1951)",
+"Poeta nacido en la ciudad de Tacuarembó."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Julio Da Rosa",
+"M",
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+"(1920)",
+"Narrador nacido en Costas de Porongos, departamento de Treinta y Tres."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Serafín J. García",
+"M",
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+"(1908 - 1985)",
+"Poeta y narrador nacido en Cañada Grande, departamento de Treinta y Tres."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Luis Hierro Gambardella",
+"M",
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+"(1915 - 1991)",
+"Poeta, narrador y crítico literario nacido en la ciudad de Treinta y Tres."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Pedro Leandro Ipuche",
+"M",
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+"(1889 - 1976)",
+"Poeta, narrador y ensayista nacido en la ciudad de Treinta y Tres."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Lucio Muniz",
+"M",
+{
+"$ref": [
+"list_departments",
+18
+]
+},
+"(1939)",
+"Poeta nacido en la ciudad de Treinta y Tres."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Delmira Agustini",
+"F",
+{
+"$ref": [
+"list_departments",
+9
+]
+},
+"(1886 - 1914)",
+"Poetisa nacida en la ciudad de Montevideo."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Eduardo Galeano",
+"M",
+{
+"$ref": [
+"list_departments",
+9
+]
+},
+"(1940)",
+"Narrador y periodista nacido en la ciudad de Montevideo."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Juan Carlos Onetti",
+"M",
+{
+"$ref": [
+"list_departments",
+9
+]
+},
+"(1909 - 1994)",
+"Narrador y periodista nacido en la ciudad de Montevideo."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"José Enrique Rodó",
+"M",
+{
+"$ref": [
+"list_departments",
+9
+]
+},
+"(1871 -1917)",
+"Ensayista y crítico literario nacido en la ciudad de Montevideo."
+]
+},
+{
+"cls": "WriterNote",
+"args": [
+"Florencio Sánchez",
+"M",
+{
+"$ref": [
+"list_departments",
+9
+]
+},
+"(1875 - 1910)",
+"Dramaturgo nacido en la ciudad de Montevideo."
+]
+}
+]
+},
+"params": {
+"StolenObject": [
+"prep",
+"desc1",
+"desc2",
+"type"
+],
+"CrimeLocation": [
+"prep",
+"name",
+"dep",
+"loc1",
+"loc2"
+],
+"CityPin": [
+"x",
+"y",
+"flipped",
+"name",
+"tag_size",
+"tag_separation",
+"tag_pos",
+"article"
+],
+"Department": [
+"name",
+"image",
+"image_pos",
+"locator_pos",
+"city_pins",
+"img_medal",
+"map"
+],
+"ClueType": [
+"type"
+],
+"Clue": [
+"id",
+"types"
+],
+"StageClue": [
+"clue",
+"note_item"
+],
+"Notes": [
+"items"
+],
+"NoteItem": [
+"name",
+"type",
+"distinction"
+],
+"RiverNote": [
+"name",
+"dep_list",
+"len",
+"basin",
+"desc1",
+"desc2"
+],
+"LagoonNote": [
+"name",
+"dep_list",
+"surface",
+"desc1",
+"desc2"
+],
+"HillNote": [
+"name",
+"article",
+"dep",
+"height",
+"desc1",
+"desc2"
+],
+"HistoryFactNote": [
+"s_start",
+"article",
+"name",
+"dep_list",
+"date",
+"desc1",
+"desc2"
+],
+"LocationNote": [
+"name",
+"dep",
+"loc_type",
+"s_start",
+"population",
+"desc",
+"distinction"
+],
+"WriterNote": [
+"name",
+"sex",
+"dep",
+"dates",
+"desc"
+],
+"Witness": [
+"name",
+"img"
+],
+"JanitorStatement": [
+"text",
+"type",
+"sex",
+"cat1",
+"cat2",
+"cat3"
+],
+"Statement": [
+"text"
+],
+"IdentikitStatement": [
+"text",
+"sex_f",
+"height_f",
+"hair_f",
+"distinctive_f"
+],
+"WitnessStatement": [
+"intro_s",
+"j_s",
+"i_s",
+"l_s"
+],
+"Thief": [
+"sex",
+"height",
+"hair",
+"d_feature",
+"pet",
+"sport",
+"name",
+"nick",
+"age",
+"desc",
+"i_img",
+"i_l_img_f",
+"i_l_img_s",
+"i_p3_img"
+],
+"CharacterInfo": [
+"active",
+"id",
+"name",
+"avatar",
+"sex",
+"location",
+"range_level"
+],
+"Character": [
+"charinfo",
+"dep",
+"uuid"
+],
+"HighscoreCharacter": [
+"name",
+"uuid",
+"score"
+],
+"CharacterProgress": [
+"char",
+"score",
+"resolved_cases",
+"medals",
+"l_dep_solved",
+"gardener_seen",
+"shoptender_seen",
+"librarian_seen",
+"bricklayer_seen",
+"phase2_help",
+"phase3_help",
+"identikit_help",
+"show_folder",
+"show_notes_animation",
+"notes",
+"new_notes",
+"bricklayer_pictures_seen",
+"last_help_step_seen",
+"captured_thieves"
+],
+"Range": [
+"character_progress"
+],
+"Medal": [
+"name",
+"count"
+],
+"Case": [
+"n",
+"ldl",
+"ldv",
+"cl",
+"so",
+"tl",
+"ts",
+"cf",
+"wwv",
+"t",
+"aot",
+"ci",
+"list_t",
+"list_w",
+"list_ws",
+"list_wv",
+"list_wf",
+"list_d",
+"list_tc",
+"list_pd",
+"tls",
+"list_c",
+"list_sf",
+"ct",
+"tcc"
+],
+"Animal": [
+"name",
+"clas",
+"diet",
+"mov"
+],
+"Sport": [
+"name",
+"cat",
+"team",
+"ball"
+]
+},
+"bordering_matrix": [
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+1,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+1,
+1,
+1,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+1,
+1
+],
+[
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+1,
+0,
+0
+],
+[
+0,
+0,
+1,
+0,
+0,
+1,
+1,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+1,
+1,
+1
+],
+[
+0,
+0,
+0,
+1,
+1,
+0,
+1,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+1,
+1,
+0,
+0
+],
+[
+0,
+1,
+0,
+0,
+1,
+1,
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+1
+],
+[
+0,
+1,
+0,
+0,
+0,
+0,
+1,
+0,
+1,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+1
+],
+[
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+1,
+0,
+0,
+1,
+0
+],
+[
+0,
+0,
+0,
+0,
+1,
+1,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+1,
+1,
+0
+],
+[
+1,
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+1,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1
+],
+[
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+1,
+0,
+0,
+0,
+0,
+1,
+0
+],
+[
+0,
+1,
+0,
+1,
+0,
+1,
+1,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0
+],
+[
+0,
+0,
+0,
+1,
+1,
+1,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+1,
+0,
+0,
+0
+],
+[
+0,
+0,
+1,
+0,
+1,
+0,
+0,
+0,
+0,
+0,
+1,
+1,
+1,
+0,
+1,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+1,
+0,
+1,
+0,
+1,
+1,
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+0
+]
+],
+"proximity_matrix": [
+[
+0,
+6,
+4,
+6,
+4,
+5,
+5,
+7,
+7,
+6,
+3,
+4,
+2,
+7,
+2,
+6,
+4,
+2,
+5
+],
+[
+6,
+0,
+4,
+1,
+1,
+2,
+1,
+1,
+2,
+1,
+3,
+3,
+5,
+2,
+5,
+1,
+2,
+3,
+3
+],
+[
+4,
+4,
+0,
+5,
+4,
+5,
+3,
+3,
+3,
+4,
+4,
+6,
+3,
+3,
+4,
+4,
+6,
+2,
+1
+],
+[
+6,
+1,
+5,
+0,
+2,
+2,
+2,
+3,
+3,
+2,
+3,
+2,
+5,
+4,
+4,
+1,
+2,
+4,
+4
+],
+[
+4,
+1,
+4,
+2,
+0,
+1,
+1,
+3,
+3,
+2,
+2,
+2,
+3,
+4,
+3,
+1,
+2,
+2,
+4
+],
+[
+5,
+2,
+5,
+2,
+1,
+0,
+1,
+3,
+3,
+2,
+2,
+2,
+4,
+4,
+3,
+1,
+1,
+2,
+4
+],
+[
+5,
+1,
+3,
+2,
+1,
+1,
+0,
+2,
+2,
+1,
+3,
+3,
+4,
+3,
+4,
+1,
+3,
+3,
+4
+],
+[
+7,
+1,
+3,
+3,
+3,
+3,
+2,
+0,
+1,
+1,
+5,
+4,
+6,
+1,
+6,
+2,
+4,
+5,
+2
+],
+[
+7,
+2,
+3,
+3,
+3,
+3,
+2,
+1,
+0,
+1,
+5,
+4,
+6,
+1,
+6,
+2,
+4,
+5,
+2
+],
+[
+6,
+1,
+4,
+2,
+2,
+2,
+1,
+1,
+1,
+0,
+4,
+3,
+5,
+2,
+5,
+1,
+3,
+4,
+3
+],
+[
+3,
+3,
+4,
+3,
+2,
+2,
+3,
+5,
+5,
+4,
+0,
+1,
+3,
+6,
+1,
+3,
+1,
+2,
+6
+],
+[
+4,
+3,
+6,
+2,
+2,
+2,
+3,
+4,
+4,
+3,
+1,
+0,
+5,
+5,
+2,
+2,
+1,
+3,
+5
+],
+[
+2,
+5,
+3,
+5,
+3,
+4,
+4,
+6,
+6,
+5,
+3,
+5,
+0,
+5,
+3,
+5,
+5,
+1,
+4
+],
+[
+7,
+2,
+3,
+4,
+4,
+4,
+3,
+1,
+1,
+2,
+6,
+5,
+5,
+0,
+7,
+3,
+5,
+5,
+2
+],
+[
+2,
+5,
+4,
+4,
+3,
+3,
+4,
+6,
+6,
+5,
+1,
+2,
+3,
+7,
+0,
+4,
+2,
+2,
+5
+],
+[
+6,
+1,
+4,
+1,
+1,
+1,
+1,
+2,
+2,
+1,
+3,
+2,
+5,
+3,
+4,
+0,
+2,
+4,
+3
+],
+[
+4,
+2,
+6,
+2,
+2,
+1,
+3,
+4,
+4,
+3,
+1,
+1,
+5,
+5,
+2,
+2,
+0,
+3,
+5
+],
+[
+2,
+3,
+2,
+4,
+2,
+2,
+3,
+5,
+5,
+4,
+2,
+3,
+1,
+5,
+2,
+4,
+3,
+0,
+3
+],
+[
+5,
+3,
+1,
+4,
+4,
+4,
+3,
+2,
+2,
+3,
+6,
+5,
+4,
+2,
+5,
+3,
+5,
+3,
+0
+]
+]
+}
